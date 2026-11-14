@@ -1,0 +1,16 @@
+{
+  "id": "lesson-0",
+  "title": "Course introduction",
+  "status": "two_slide_review_sample",
+  "sample_path": "lesson-00",
+  "full_lesson_complete": false,
+  "covered_in_sample": [
+    "AWS certification positioning and value",
+    "Intended audience and prerequisites",
+    "Relationship to AI Practitioner"
+  ],
+  "remaining_introduction_topics": [
+    "Full course structure and learning approach",
+    "Exam scope and how to use course resources"
+  ]
+}

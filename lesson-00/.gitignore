@@ -1,0 +1,12 @@
+.playwriter-eval.js
+assets/audio/*.wav
+assets/media/*.mp4
+capture/*.mp4
+capture/*-snapshot.txt
+capture/aws-marketing-research.md
+capture/*attempt1.json
+build/
+check*.json
+.cache/
+preview-props.json
+assets/audio/*.txt

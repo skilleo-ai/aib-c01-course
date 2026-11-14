@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "errors": [],
+  "slide_count": 2,
+  "verified_teaching_targets": 6,
+  "metadata_only": false,
+  "media": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 98.410667,
+    "integrated_loudness_lufs": -16.24,
+    "true_peak_dbtp": -4.47,
+    "audio_video_duration_difference_seconds": 0.044,
+    "inspected_frames_seconds": [
+      15,
+      84
+    ]
+  },
+  "video_sha256": "f10f1d0962af859618bd36a73ce14cb02307a8a7362938ec1f85ca1f3121d6f9"
+}

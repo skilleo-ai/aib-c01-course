@@ -1,0 +1,61 @@
+{
+  "viewport": {
+    "width": 720,
+    "height": 900
+  },
+  "browser_zoom": 1.2,
+  "result": {
+    "path": "/workspace/work/aib-c01-course/lesson-00/capture/slide01-raw.mp4",
+    "duration": 45133,
+    "size": 550878,
+    "endReason": "stopped",
+    "executionTimestamps": []
+  },
+  "events": [
+    {
+      "id": "positioning",
+      "action_start": 0,
+      "visible_start": 0.328533832,
+      "end": 11.492284065,
+      "box": {
+        "x": 38.390625,
+        "y": 268.75,
+        "width": 643.21875,
+        "height": 43.1875
+      },
+      "evidence": "AWS Certified AI Business Strategist",
+      "url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "hold_kind": "instructional_reading"
+    },
+    {
+      "id": "business-decisions",
+      "action_start": 11.492304155,
+      "visible_start": 11.913564885,
+      "end": 28.094773385,
+      "box": {
+        "x": 38.4375,
+        "y": 349.46875,
+        "width": 643.125,
+        "height": 201.578125
+      },
+      "evidence": "AWS Certified AI Business Strategist tests your ability to evaluate AI investments, build business cases, design governance, and scale adoption across an organization. The exam assesses strategic decision-making skills that are portable across organizations and industries. It does not assess AWS services knowledge. For organizations, certified professionals bring a shared framework for AI decisions and a faster path from experimentation to measurable outcomes.",
+      "url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "hold_kind": "instructional_reading"
+    },
+    {
+      "id": "career-value",
+      "action_start": 28.094794907,
+      "visible_start": 28.904937222,
+      "end": 45.125448542,
+      "box": {
+        "x": 56.390625,
+        "y": 520.515625,
+        "width": 607.21875,
+        "height": 143.984375
+      },
+      "evidence": "More companies are integrating AI across existing roles. That means the professionals who advance are the ones who can lead AI adoption within their current scope: evaluating where AI fits, getting investments funded, managing risk, and scaling what works. This certification validates that you can do all four.",
+      "url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "hold_kind": "instructional_reading"
+    }
+  ]
+}

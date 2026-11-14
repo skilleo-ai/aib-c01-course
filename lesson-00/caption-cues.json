@@ -1,0 +1,117 @@
+[
+  {
+    "start": 0.82,
+    "end": 1.5,
+    "text": "Welcome."
+  },
+  {
+    "start": 2.04,
+    "end": 4.9,
+    "text": "This course develops business judgment for AI adoption."
+  },
+  {
+    "start": 5.68,
+    "end": 9.9,
+    "text": "AWS emphasizes taking AI from adoption to scale."
+  },
+  {
+    "start": 12.73,
+    "end": 15.07,
+    "text": "The focus is evaluating AI investments,"
+  },
+  {
+    "start": 15.69,
+    "end": 19.61,
+    "text": "building business cases, designing governance, and scaling adoption."
+  },
+  {
+    "start": 20.63,
+    "end": 26.15,
+    "text": "The goal is to connect AI decisions to measurable outcomes, across organizations and"
+  },
+  {
+    "start": 26.15,
+    "end": 26.49,
+    "text": "industries."
+  },
+  {
+    "start": 29.66,
+    "end": 30.4,
+    "text": "Why learn it?"
+  },
+  {
+    "start": 30.4,
+    "end": 36.58,
+    "text": "These skills help you decide where AI fits, justify investment, manage risk, and expand"
+  },
+  {
+    "start": 36.58,
+    "end": 37.26,
+    "text": "what works."
+  },
+  {
+    "start": 38.14,
+    "end": 42.06,
+    "text": "We will practice that reasoning, rather than promise a particular career outcome."
+  },
+  {
+    "start": 46.36333333333333,
+    "end": 52.123333333333335,
+    "text": "This is for people who lead or influence AI outcomes: product and program managers,"
+  },
+  {
+    "start": 52.663333333333334,
+    "end": 54.903333333333336,
+    "text": "business leaders, analysts, consultants,"
+  },
+  {
+    "start": 55.52333333333333,
+    "end": 57.08333333333333,
+    "text": "and marketing or sales professionals."
+  },
+  {
+    "start": 58.02333333333333,
+    "end": 59.72333333333333,
+    "text": "You do not have to build the models yourself."
+  },
+  {
+    "start": 63.93333333333334,
+    "end": 69.41333333333333,
+    "text": "AWS recommends basic AI familiarity and six months alongside AI initiatives."
+  },
+  {
+    "start": 70.35333333333332,
+    "end": 72.21333333333334,
+    "text": "Coding, implementation experience,"
+  },
+  {
+    "start": 72.95333333333333,
+    "end": 74.91333333333333,
+    "text": "and another certification are not required."
+  },
+  {
+    "start": 74.91333333333333,
+    "end": 76.03333333333333,
+    "text": "AI"
+  },
+  {
+    "start": 78.17333333333333,
+    "end": 84.89333333333333,
+    "text": "Practitioner validates foundational AI concepts and AWS AI service knowledge."
+  },
+  {
+    "start": 85.41333333333333,
+    "end": 90.63333333333333,
+    "text": "Business Strategist focuses on choosing investments, building business cases, managing"
+  },
+  {
+    "start": 90.63333333333333,
+    "end": 92.13333333333333,
+    "text": "risk, and driving adoption."
+  },
+  {
+    "start": 93.17333333333333,
+    "end": 94.21333333333334,
+    "text": "Earning both is optional."
+  }
+]

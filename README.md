@@ -2,9 +2,13 @@
 
 A depth-focused, independent course and reproducible production foundation for Skilleo. Curriculum design, a scripted ROI pilot and the first rendered lesson are available; the full course remains in production.
 
-## First lesson video
+## Lesson 0 — recording-first Skilleo preview
 
-[Watch or download lesson 01: AI, ML and generative AI](https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1) — 10 minutes 41 seconds, dark theme, local narration and burned-in captions. [Lesson source and teaching materials](lesson-01/README.md). This is a review build, pending user feedback and independent subject-matter approval.
+[Download the two-slide introduction sample](lesson-00/review/lesson-00-native.mp4) — about 1 minute 38 seconds. Actual AWS page recordings captured with Playwriter, narration fitted afterward, and rendered with Skilleo's existing course renderer. [Native module files, source plan and pipeline details](lesson-00/README.md).
+
+## Earlier slide-style experiment
+
+[Earlier AI/ML slide-style sample](https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1) — 10 minutes 41 seconds, dark theme, local narration and burned-in captions. [Lesson source and teaching materials](lesson-01/README.md). This is a review build, pending user feedback and independent subject-matter approval.
 
 ## Start here
 
@@ -29,7 +33,7 @@ A depth-focused, independent course and reproducible production foundation for S
 | Wait compression and timestamp remapping | Implemented and unit tested |
 | Browser recording adapter | Not implemented |
 | FFmpeg assembly and local narration | Working for lesson 01; reusable Studio adapters pending |
-| Rendered course videos | Lesson 01 review build; approval pending |
+| Rendered course videos | Lesson 0 native two-slide review; earlier slide-style experiment retained |
 | Expert approval / Studio integration | Pending / not performed |
 
 The uploaded PLAN.md and Highlight.md were treated as design references. Their proposed tools and interfaces are not assumed installed or integrated. GitHub does not contain the uploaded documents; the implementation decisions are documented here.
@@ -54,7 +58,7 @@ Coverage validation checks known skill IDs, domain consistency, reference integr
 4. Assemble and review the pilot, then apply the reviewed format module by module.
 5. Inspect the actual Skilleo repository before implementing integration.
 
-No AWS account, paid model, cloud resource or deployment is required for the current checks. Generated audio, intermediate media and secrets are excluded from git. The first review video is explicitly included under lesson-01/review because release-asset uploads rejected authentication. Use a media artifact store as production scales.
+No AWS account, paid model, cloud resource or deployment is required for the current checks. Generated audio, intermediate media and secrets are excluded from git. Review videos are explicitly included under lesson-01/review because release-asset uploads rejected authentication. Use a media artifact store as production scales.
 
 ## Source and rights policy
 

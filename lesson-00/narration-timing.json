@@ -1,0 +1,76 @@
+[
+  {
+    "id": "m0-aib-purpose-value",
+    "number": "01",
+    "title": "Why learn AI business strategy?",
+    "bullets": [
+      "Build business judgment",
+      "Evaluate value, risk and adoption",
+      "Apply skills across organizations"
+    ],
+    "beats": [
+      {
+        "event": "positioning",
+        "text": "Welcome. This course develops business judgment for AI adoption. AWS emphasizes taking AI from adoption to scale.",
+        "audio_start": 1.178533832,
+        "audio_end": 10.223867165333333,
+        "available_end": 11.192304154999999,
+        "measured_seconds": 9.045333333333334
+      },
+      {
+        "event": "business-decisions",
+        "text": "The focus is evaluating AI investments, building business cases, designing governance, and scaling adoption. The goal is to connect AI decisions to measurable outcomes, across organizations and industries.",
+        "audio_start": 12.763564885,
+        "audio_end": 26.92889821833333,
+        "available_end": 27.794794907,
+        "measured_seconds": 14.165333333333333
+      },
+      {
+        "event": "career-value",
+        "text": "Why learn it? These skills help you decide where AI fits, justify investment, manage risk, and expand what works. We will practice that reasoning, rather than promise a particular career outcome.",
+        "audio_start": 29.754937222000002,
+        "audio_end": 42.40560388866667,
+        "available_end": 44.63333333333333,
+        "measured_seconds": 12.650666666666666
+      }
+    ],
+    "duration": 45.13333333333333
+  },
+  {
+    "id": "m0-aib-audience-landscape",
+    "number": "02",
+    "title": "Who is this certification for?",
+    "bullets": [
+      "Business and cross-functional roles",
+      "AI familiarity; no coding prerequisite",
+      "Different purpose from AI Practitioner"
+    ],
+    "beats": [
+      {
+        "event": "audience",
+        "text": "This is for people who lead or influence AI outcomes: product and program managers, business leaders, analysts, consultants, and marketing or sales professionals. You do not have to build the models yourself.",
+        "audio_start": 1.561358597,
+        "audio_end": 14.937358597,
+        "available_end": 16.586916883,
+        "measured_seconds": 13.376
+      },
+      {
+        "event": "entry-expectations",
+        "text": "AWS recommends basic AI familiarity and six months alongside AI initiatives. Coding, implementation experience, and another certification are not required.",
+        "audio_start": 18.003904215000002,
+        "audio_end": 30.20657088166667,
+        "available_end": 30.987903155999998,
+        "measured_seconds": 12.202666666666667
+      },
+      {
+        "event": "certification-landscape",
+        "text": "AI Practitioner validates foundational AI concepts and AWS AI service knowledge. Business Strategist focuses on choosing investments, building business cases, managing risk, and driving adoption. Earning both is optional.",
+        "audio_start": 32.879741718,
+        "audio_end": 49.49840838466666,
+        "available_end": 52.733333333333334,
+        "measured_seconds": 16.618666666666666
+      }
+    ],
+    "duration": 53.233333333333334
+  }
+]

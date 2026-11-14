@@ -1,0 +1,21 @@
+{
+  "slides": [
+    {
+      "slide_id": "m0-aib-purpose-value",
+      "asr_words": 76,
+      "transcript_matches_authored_words": true,
+      "all_speech_fits_recorded_windows": true,
+      "visual_duration": 45.13333333333333
+    },
+    {
+      "slide_id": "m0-aib-audience-landscape",
+      "asr_words": 81,
+      "transcript_matches_authored_words": true,
+      "all_speech_fits_recorded_windows": true,
+      "visual_duration": 53.233333333333334
+    }
+  ],
+  "total_duration_seconds": 98.36666666666667,
+  "figures": "None: video-backed slides. animation_synced is not set on nonexistent figures.",
+  "ASR": "Actual local faster-whisper base.en word timings; reviewed text differs only in punctuation/capitalization."
+}

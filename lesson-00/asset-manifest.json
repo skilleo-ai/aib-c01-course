@@ -1,0 +1,56 @@
+{
+  "format": "skilleo-recording-review-assets/v1",
+  "note": "Companion recording manifest for this sample, not an asserted existing Studio API schema.",
+  "slides": [
+    {
+      "slide_id": "m0-aib-purpose-value",
+      "duration_sec": 45.13333333333333,
+      "assets": [
+        {
+          "path": "capture/slide01-raw.mp4",
+          "bytes": 550878,
+          "sha256": "0fd1cada1a298fec2acc18732c4896b958d1043a73345247f73c97c08e4d262d"
+        },
+        {
+          "path": "assets/media/slide01-screen.mp4",
+          "bytes": 981670,
+          "sha256": "33db75871f8ae72c7fa8eff4e03d67ca05b7d8a095fd4137744d087e1e870e00"
+        },
+        {
+          "path": "assets/audio/slide01-narration.wav",
+          "bytes": 4332878,
+          "sha256": "4d7c5347c6b73c0a7a9f27d501e8392d74fd0e721b36c3df92f7118fbdd76ca7"
+        }
+      ],
+      "word_timings": "slide01-word-timings-reviewed.json",
+      "capture_timeline": "capture/slide01-timeline.json",
+      "source_url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "binding_note": "Upload media to Studio storage, then replace relative media/audio paths with returned asset URLs; Markdown import alone does not bind media."
+    },
+    {
+      "slide_id": "m0-aib-audience-landscape",
+      "duration_sec": 53.233333333333334,
+      "assets": [
+        {
+          "path": "capture/slide02-raw.mp4",
+          "bytes": 788951,
+          "sha256": "72aa81b69949c592c6e5ac3939f609b9dbaba2584e3c3f7f5838061a885db21b"
+        },
+        {
+          "path": "assets/media/slide02-screen.mp4",
+          "bytes": 1257402,
+          "sha256": "32d3fd4a2c1647b09794942ca405e8f0485c43fc44a4bb95dba40de680f3d82c"
+        },
+        {
+          "path": "assets/audio/slide02-narration.wav",
+          "bytes": 5110478,
+          "sha256": "bdabecdc318ae7dfdf306f2b9c6d3e7227e939403243ff2f58be07a333eab947"
+        }
+      ],
+      "word_timings": "slide02-word-timings-reviewed.json",
+      "capture_timeline": "capture/slide02-timeline.json",
+      "source_url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "binding_note": "Upload media to Studio storage, then replace relative media/audio paths with returned asset URLs; Markdown import alone does not bind media."
+    }
+  ]
+}

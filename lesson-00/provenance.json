@@ -1,0 +1,34 @@
+{
+  "source_url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+  "sections": [
+    "Certification positioning",
+    "Business-decision introduction",
+    "Career rationale FAQ",
+    "Intended audience FAQ",
+    "AI Practitioner comparison FAQ"
+  ],
+  "playwriter": "0.11.0 CLI via direct CDP",
+  "browser": "Chromium 156.0.8078.79",
+  "capture_viewport": {
+    "width": 720,
+    "height": 900,
+    "device_pixel_ratio": 1,
+    "browser_zoom": 1.2
+  },
+  "recording": "Native Playwriter recording.start, real clock; actual browser actions and verified states",
+  "skilleo_renderer": {
+    "repository": "https://github.com/skilleo-ai/skilleo-studio",
+    "commit": "e57043b83ebd956388540db7ac130856fc7b96ae",
+    "canonical_source": "skilleo-ai/skilleo-api/studio",
+    "composition": "CourseModule",
+    "template": "bullets-visual-architecture-focus",
+    "remotion_version": "4.0.520",
+    "source_modified": false,
+    "font_transport": "Exact Outfit font bytes mirrored into build dependency URL table because Chrome could not reach Google Fonts; layout and renderer source unchanged."
+  },
+  "narration": "Local Kokoro af_heart at 0.98 speed, fitted to edited recordings; AI phonemization left intact, AWS spelled A.W.S.",
+  "asr": "Local faster-whisper base.en, actual word timestamps; reviewed against authored words, not estimated from a word budget.",
+  "production_studio_modified": false,
+  "provenance_created_utc": "2026-11-14T04:34:01.615996+00:00",
+  "capture_completed_utc": "2026-11-14T04:21:05.210379+00:00"
+}

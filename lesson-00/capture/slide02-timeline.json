@@ -1,0 +1,97 @@
+{
+  "viewport": {
+    "width": 720,
+    "height": 900
+  },
+  "browser_zoom": 1.2,
+  "result": {
+    "path": "/workspace/work/aib-c01-course/lesson-00/capture/slide02-raw.mp4",
+    "duration": 53206,
+    "size": 788951,
+    "endReason": "stopped",
+    "executionTimestamps": []
+  },
+  "events": [
+    {
+      "id": "audience",
+      "action_start": 7.3761e-05,
+      "visible_start": 0.711358597,
+      "end": 16.886818575,
+      "box": {
+        "x": 56.390625,
+        "y": 435.53125,
+        "width": 607.21875,
+        "height": 172.78125
+      },
+      "evidence": "Professionals who drive or aspire to drive AI outcomes in their organization, whether they're identifying opportunities, evaluating investments, governing adoption, or scaling AI initiatives. This includes product and program managers, sales and business development individuals, line-of-business leaders, consultants, business analysts, and marketing professionals.",
+      "url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "hold_kind": "instructional_reading",
+      "highlight": {
+        "raw_start": 1.8113585970000001,
+        "raw_end": 3.811358597,
+        "box": {
+          "x": 51,
+          "y": 430,
+          "width": 618,
+          "height": 183
+        }
+      }
+    },
+    {
+      "id": "entry-expectations",
+      "action_start": 16.886916883,
+      "visible_start": 17.153904215,
+      "end": 31.287877697,
+      "box": {
+        "x": 56.390625,
+        "y": 651.484375,
+        "width": 607.21875,
+        "height": 201.578125
+      },
+      "evidence": "The target candidate should have a basic familiarity with AI concepts, and a general awareness of what AWS AI and machine learning (ML) services, AWS frameworks, guidelines, and tools offer at a strategic level (without needing hands-on experience with the services). Six months of experience working with or alongside AI initiatives is recommended. No coding, AWS implementation experience, or other AWS certifications are required.\u202f",
+      "url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "hold_kind": "instructional_reading",
+      "highlight": {
+        "raw_start": 18.253904215000002,
+        "raw_end": 20.253904215000002,
+        "box": {
+          "x": 51,
+          "y": 646,
+          "width": 618,
+          "height": 212
+        }
+      }
+    },
+    {
+      "id": "certification-landscape",
+      "action_start": 31.287903156,
+      "visible_start": 32.029741718,
+      "end": 53.200185501,
+      "box": {
+        "x": 56.390625,
+        "y": 520.359375,
+        "width": 607.21875,
+        "height": 287.96875
+      },
+      "evidence": "These two certifications are built for different purposes and validate different skills. AWS Certified AI Business Strategist validates business judgment for AI decisions: which AI investments to pursue, how to build the business case, how to apply governance to manage risk, and how to drive adoption from pilot to production. This certification does not assess knowledge of AWS AI services. AWS Certified AI Practitioner validates foundational knowledge of AI, ML, generative AI concepts, and AWS AI services. You have the option to earn both if you want to demonstrate both technical AI knowledge and strategic AI business judgment.\u00a0",
+      "url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "hold_kind": "instructional_reading",
+      "highlight": {
+        "raw_start": 33.129741718,
+        "raw_end": 35.129741718,
+        "box": {
+          "x": 51,
+          "y": 515,
+          "width": 618,
+          "height": 298
+        }
+      }
+    }
+  ],
+  "edited_duration": 53.233333333333334,
+  "raw_media_duration": 52.1,
+  "tail_reading_hold_added": 1.1333333333333329,
+  "edited_asset": "assets/media/slide02-screen.mp4",
+  "wait_compression": "No loading waits exceeded 5 seconds. Reading holds retained.",
+  "timeline_mapping": "Identity for observed events; unchanged final-screen hold only."
+}

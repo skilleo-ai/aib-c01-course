@@ -1,0 +1,889 @@
+{
+  "id": "module-0-aib-intro-preview",
+  "title": "Lesson 0 \u2014 Is this course for you?",
+  "slides": [
+    {
+      "id": "m0-aib-purpose-value",
+      "type": "content-image",
+      "template_id": "bullets-visual-architecture-focus",
+      "template_family": "BULLETS_VISUAL",
+      "title": "Why learn AI business strategy?",
+      "script": "Welcome. This course develops business judgment for AI adoption. AWS emphasizes taking AI from adoption to scale. The focus is evaluating AI investments, building business cases, designing governance, and scaling adoption. The goal is to connect AI decisions to measurable outcomes, across organizations and industries. Why learn it? These skills help you decide where AI fits, justify investment, manage risk, and expand what works. We will practice that reasoning, rather than promise a particular career outcome.",
+      "bullets": [
+        "Build business judgment",
+        "Evaluate value, risk and adoption",
+        "Apply skills across organizations"
+      ],
+      "duration_sec": 45.13333333333333,
+      "audio_url": "audio/slide01-narration.wav",
+      "video_url": "media/slide01-screen.mp4",
+      "theme": "dark",
+      "figure_accent": "teal",
+      "visual": "image",
+      "picture_roll": {
+        "shots": [
+          {
+            "id": "playwriter-01",
+            "index": 0,
+            "start_sec": 0,
+            "end_sec": 45.13333333333333,
+            "video_url": "media/slide01-screen.mp4"
+          }
+        ]
+      },
+      "word_timings": [
+        {
+          "word": "Welcome.",
+          "start": 0.82,
+          "end": 1.5
+        },
+        {
+          "word": "This",
+          "start": 2.04,
+          "end": 2.2
+        },
+        {
+          "word": "course",
+          "start": 2.2,
+          "end": 2.48
+        },
+        {
+          "word": "develops",
+          "start": 2.48,
+          "end": 2.82
+        },
+        {
+          "word": "business",
+          "start": 2.82,
+          "end": 3.28
+        },
+        {
+          "word": "judgment",
+          "start": 3.28,
+          "end": 3.7
+        },
+        {
+          "word": "for",
+          "start": 3.7,
+          "end": 4.08
+        },
+        {
+          "word": "AI",
+          "start": 4.08,
+          "end": 4.34
+        },
+        {
+          "word": "adoption.",
+          "start": 4.34,
+          "end": 4.9
+        },
+        {
+          "word": "AWS",
+          "start": 5.68,
+          "end": 6.22
+        },
+        {
+          "word": "emphasizes",
+          "start": 6.22,
+          "end": 7.7
+        },
+        {
+          "word": "taking",
+          "start": 7.7,
+          "end": 8.24
+        },
+        {
+          "word": "AI",
+          "start": 8.24,
+          "end": 8.58
+        },
+        {
+          "word": "from",
+          "start": 8.58,
+          "end": 9.02
+        },
+        {
+          "word": "adoption",
+          "start": 9.02,
+          "end": 9.28
+        },
+        {
+          "word": "to",
+          "start": 9.28,
+          "end": 9.68
+        },
+        {
+          "word": "scale.",
+          "start": 9.68,
+          "end": 9.9
+        },
+        {
+          "word": "The",
+          "start": 12.73,
+          "end": 12.83
+        },
+        {
+          "word": "focus",
+          "start": 12.83,
+          "end": 13.15
+        },
+        {
+          "word": "is",
+          "start": 13.15,
+          "end": 13.47
+        },
+        {
+          "word": "evaluating",
+          "start": 13.47,
+          "end": 13.85
+        },
+        {
+          "word": "AI",
+          "start": 13.85,
+          "end": 14.47
+        },
+        {
+          "word": "investments,",
+          "start": 14.47,
+          "end": 15.07
+        },
+        {
+          "word": "building",
+          "start": 15.69,
+          "end": 16.05
+        },
+        {
+          "word": "business",
+          "start": 16.05,
+          "end": 16.47
+        },
+        {
+          "word": "cases,",
+          "start": 16.47,
+          "end": 16.99
+        },
+        {
+          "word": "designing",
+          "start": 17.41,
+          "end": 17.83
+        },
+        {
+          "word": "governance,",
+          "start": 17.83,
+          "end": 18.23
+        },
+        {
+          "word": "and",
+          "start": 18.73,
+          "end": 18.87
+        },
+        {
+          "word": "scaling",
+          "start": 18.87,
+          "end": 19.23
+        },
+        {
+          "word": "adoption.",
+          "start": 19.23,
+          "end": 19.61
+        },
+        {
+          "word": "The",
+          "start": 20.63,
+          "end": 20.75
+        },
+        {
+          "word": "goal",
+          "start": 20.75,
+          "end": 20.95
+        },
+        {
+          "word": "is",
+          "start": 20.95,
+          "end": 21.35
+        },
+        {
+          "word": "to",
+          "start": 21.35,
+          "end": 21.51
+        },
+        {
+          "word": "connect",
+          "start": 21.51,
+          "end": 21.79
+        },
+        {
+          "word": "AI",
+          "start": 21.79,
+          "end": 22.21
+        },
+        {
+          "word": "decisions",
+          "start": 22.21,
+          "end": 22.69
+        },
+        {
+          "word": "to",
+          "start": 22.69,
+          "end": 23.15
+        },
+        {
+          "word": "measurable",
+          "start": 23.15,
+          "end": 23.39
+        },
+        {
+          "word": "outcomes,",
+          "start": 23.39,
+          "end": 24.07
+        },
+        {
+          "word": "across",
+          "start": 24.37,
+          "end": 24.79
+        },
+        {
+          "word": "organizations",
+          "start": 24.79,
+          "end": 25.57
+        },
+        {
+          "word": "and",
+          "start": 25.57,
+          "end": 26.15
+        },
+        {
+          "word": "industries.",
+          "start": 26.15,
+          "end": 26.49
+        },
+        {
+          "word": "Why",
+          "start": 29.66,
+          "end": 29.9
+        },
+        {
+          "word": "learn",
+          "start": 29.9,
+          "end": 30.14
+        },
+        {
+          "word": "it?",
+          "start": 30.14,
+          "end": 30.4
+        },
+        {
+          "word": "These",
+          "start": 30.4,
+          "end": 30.98
+        },
+        {
+          "word": "skills",
+          "start": 30.98,
+          "end": 31.28
+        },
+        {
+          "word": "help",
+          "start": 31.28,
+          "end": 31.64
+        },
+        {
+          "word": "you",
+          "start": 31.64,
+          "end": 31.8
+        },
+        {
+          "word": "decide",
+          "start": 31.8,
+          "end": 32.1
+        },
+        {
+          "word": "where",
+          "start": 32.1,
+          "end": 32.46
+        },
+        {
+          "word": "AI",
+          "start": 32.46,
+          "end": 32.74
+        },
+        {
+          "word": "fits,",
+          "start": 32.74,
+          "end": 33.42
+        },
+        {
+          "word": "justify",
+          "start": 33.62,
+          "end": 34.1
+        },
+        {
+          "word": "investment,",
+          "start": 34.1,
+          "end": 34.8
+        },
+        {
+          "word": "manage",
+          "start": 35.2,
+          "end": 35.48
+        },
+        {
+          "word": "risk,",
+          "start": 35.48,
+          "end": 35.86
+        },
+        {
+          "word": "and",
+          "start": 36.2,
+          "end": 36.3
+        },
+        {
+          "word": "expand",
+          "start": 36.3,
+          "end": 36.58
+        },
+        {
+          "word": "what",
+          "start": 36.58,
+          "end": 37.04
+        },
+        {
+          "word": "works.",
+          "start": 37.04,
+          "end": 37.26
+        },
+        {
+          "word": "We",
+          "start": 38.14,
+          "end": 38.16
+        },
+        {
+          "word": "will",
+          "start": 38.16,
+          "end": 38.26
+        },
+        {
+          "word": "practice",
+          "start": 38.26,
+          "end": 38.54
+        },
+        {
+          "word": "that",
+          "start": 38.54,
+          "end": 38.88
+        },
+        {
+          "word": "reasoning,",
+          "start": 38.88,
+          "end": 39.22
+        },
+        {
+          "word": "rather",
+          "start": 39.22,
+          "end": 39.9
+        },
+        {
+          "word": "than",
+          "start": 39.9,
+          "end": 40.22
+        },
+        {
+          "word": "promise",
+          "start": 40.22,
+          "end": 40.56
+        },
+        {
+          "word": "a",
+          "start": 40.56,
+          "end": 40.74
+        },
+        {
+          "word": "particular",
+          "start": 40.74,
+          "end": 41.04
+        },
+        {
+          "word": "career",
+          "start": 41.04,
+          "end": 41.56
+        },
+        {
+          "word": "outcome.",
+          "start": 41.56,
+          "end": 42.06
+        }
+      ],
+      "bullet_timings": [
+        {
+          "text": "Build business judgment",
+          "start": 2.04,
+          "end": 12.73
+        },
+        {
+          "text": "Evaluate value, risk and adoption",
+          "start": 12.73,
+          "end": 29.66
+        },
+        {
+          "text": "Apply skills across organizations",
+          "start": 29.66,
+          "end": 45.13333333333333
+        }
+      ]
+    },
+    {
+      "id": "m0-aib-audience-landscape",
+      "type": "content-image",
+      "template_id": "bullets-visual-architecture-focus",
+      "template_family": "BULLETS_VISUAL",
+      "title": "Who is this certification for?",
+      "script": "This is for people who lead or influence AI outcomes: product and program managers, business leaders, analysts, consultants, and marketing or sales professionals. You do not have to build the models yourself. AWS recommends basic AI familiarity and six months alongside AI initiatives. Coding, implementation experience, and another certification are not required. AI Practitioner validates foundational AI concepts and AWS AI service knowledge. Business Strategist focuses on choosing investments, building business cases, managing risk, and driving adoption. Earning both is optional.",
+      "bullets": [
+        "Business and cross-functional roles",
+        "AI familiarity; no coding prerequisite",
+        "Different purpose from AI Practitioner"
+      ],
+      "duration_sec": 53.233333333333334,
+      "audio_url": "audio/slide02-narration.wav",
+      "video_url": "media/slide02-screen.mp4",
+      "theme": "dark",
+      "figure_accent": "teal",
+      "visual": "image",
+      "picture_roll": {
+        "shots": [
+          {
+            "id": "playwriter-02",
+            "index": 0,
+            "start_sec": 0,
+            "end_sec": 53.233333333333334,
+            "video_url": "media/slide02-screen.mp4"
+          }
+        ]
+      },
+      "word_timings": [
+        {
+          "word": "This",
+          "start": 1.23,
+          "end": 1.73
+        },
+        {
+          "word": "is",
+          "start": 1.73,
+          "end": 1.91
+        },
+        {
+          "word": "for",
+          "start": 1.91,
+          "end": 2.09
+        },
+        {
+          "word": "people",
+          "start": 2.09,
+          "end": 2.41
+        },
+        {
+          "word": "who",
+          "start": 2.41,
+          "end": 2.63
+        },
+        {
+          "word": "lead",
+          "start": 2.63,
+          "end": 2.91
+        },
+        {
+          "word": "or",
+          "start": 2.91,
+          "end": 3.25
+        },
+        {
+          "word": "influence",
+          "start": 3.25,
+          "end": 3.77
+        },
+        {
+          "word": "AI",
+          "start": 3.77,
+          "end": 4.15
+        },
+        {
+          "word": "outcomes:",
+          "start": 4.15,
+          "end": 4.87
+        },
+        {
+          "word": "product",
+          "start": 5.27,
+          "end": 5.91
+        },
+        {
+          "word": "and",
+          "start": 5.91,
+          "end": 6.19
+        },
+        {
+          "word": "program",
+          "start": 6.19,
+          "end": 6.53
+        },
+        {
+          "word": "managers,",
+          "start": 6.53,
+          "end": 6.99
+        },
+        {
+          "word": "business",
+          "start": 7.53,
+          "end": 7.79
+        },
+        {
+          "word": "leaders,",
+          "start": 7.79,
+          "end": 8.29
+        },
+        {
+          "word": "analysts,",
+          "start": 8.69,
+          "end": 9.03
+        },
+        {
+          "word": "consultants,",
+          "start": 9.49,
+          "end": 9.77
+        },
+        {
+          "word": "and",
+          "start": 10.39,
+          "end": 10.41
+        },
+        {
+          "word": "marketing",
+          "start": 10.41,
+          "end": 10.81
+        },
+        {
+          "word": "or",
+          "start": 10.81,
+          "end": 11.17
+        },
+        {
+          "word": "sales",
+          "start": 11.17,
+          "end": 11.45
+        },
+        {
+          "word": "professionals.",
+          "start": 11.45,
+          "end": 11.95
+        },
+        {
+          "word": "You",
+          "start": 12.89,
+          "end": 13.01
+        },
+        {
+          "word": "do",
+          "start": 13.01,
+          "end": 13.11
+        },
+        {
+          "word": "not",
+          "start": 13.11,
+          "end": 13.25
+        },
+        {
+          "word": "have",
+          "start": 13.25,
+          "end": 13.45
+        },
+        {
+          "word": "to",
+          "start": 13.45,
+          "end": 13.59
+        },
+        {
+          "word": "build",
+          "start": 13.59,
+          "end": 13.77
+        },
+        {
+          "word": "the",
+          "start": 13.77,
+          "end": 13.93
+        },
+        {
+          "word": "models",
+          "start": 13.93,
+          "end": 14.15
+        },
+        {
+          "word": "yourself.",
+          "start": 14.15,
+          "end": 14.59
+        },
+        {
+          "word": "AWS",
+          "start": 18.8,
+          "end": 18.8
+        },
+        {
+          "word": "recommends",
+          "start": 18.8,
+          "end": 19.98
+        },
+        {
+          "word": "basic",
+          "start": 19.98,
+          "end": 20.44
+        },
+        {
+          "word": "AI",
+          "start": 20.44,
+          "end": 20.96
+        },
+        {
+          "word": "familiarity",
+          "start": 20.96,
+          "end": 21.52
+        },
+        {
+          "word": "and",
+          "start": 21.52,
+          "end": 22.26
+        },
+        {
+          "word": "six",
+          "start": 22.26,
+          "end": 22.44
+        },
+        {
+          "word": "months",
+          "start": 22.44,
+          "end": 22.76
+        },
+        {
+          "word": "alongside",
+          "start": 22.76,
+          "end": 23.14
+        },
+        {
+          "word": "AI",
+          "start": 23.14,
+          "end": 23.8
+        },
+        {
+          "word": "initiatives.",
+          "start": 23.8,
+          "end": 24.28
+        },
+        {
+          "word": "Coding,",
+          "start": 25.22,
+          "end": 25.64
+        },
+        {
+          "word": "implementation",
+          "start": 26.1,
+          "end": 26.42
+        },
+        {
+          "word": "experience,",
+          "start": 26.42,
+          "end": 27.08
+        },
+        {
+          "word": "and",
+          "start": 27.82,
+          "end": 27.88
+        },
+        {
+          "word": "another",
+          "start": 27.88,
+          "end": 28.08
+        },
+        {
+          "word": "certification",
+          "start": 28.08,
+          "end": 28.58
+        },
+        {
+          "word": "are",
+          "start": 28.58,
+          "end": 29.2
+        },
+        {
+          "word": "not",
+          "start": 29.2,
+          "end": 29.44
+        },
+        {
+          "word": "required.",
+          "start": 29.44,
+          "end": 29.78
+        },
+        {
+          "word": "AI",
+          "start": 29.78,
+          "end": 30.9
+        },
+        {
+          "word": "Practitioner",
+          "start": 33.04,
+          "end": 33.82
+        },
+        {
+          "word": "validates",
+          "start": 33.82,
+          "end": 34.54
+        },
+        {
+          "word": "foundational",
+          "start": 34.54,
+          "end": 34.76
+        },
+        {
+          "word": "AI",
+          "start": 34.76,
+          "end": 35.54
+        },
+        {
+          "word": "concepts",
+          "start": 35.54,
+          "end": 36.18
+        },
+        {
+          "word": "and",
+          "start": 36.18,
+          "end": 36.74
+        },
+        {
+          "word": "AWS",
+          "start": 36.74,
+          "end": 37.16
+        },
+        {
+          "word": "AI",
+          "start": 37.16,
+          "end": 38.62
+        },
+        {
+          "word": "service",
+          "start": 38.62,
+          "end": 39.24
+        },
+        {
+          "word": "knowledge.",
+          "start": 39.24,
+          "end": 39.76
+        },
+        {
+          "word": "Business",
+          "start": 40.28,
+          "end": 40.74
+        },
+        {
+          "word": "Strategist",
+          "start": 40.74,
+          "end": 41.08
+        },
+        {
+          "word": "focuses",
+          "start": 41.08,
+          "end": 41.74
+        },
+        {
+          "word": "on",
+          "start": 41.74,
+          "end": 42.18
+        },
+        {
+          "word": "choosing",
+          "start": 42.18,
+          "end": 42.5
+        },
+        {
+          "word": "investments,",
+          "start": 42.5,
+          "end": 43.06
+        },
+        {
+          "word": "building",
+          "start": 43.58,
+          "end": 43.92
+        },
+        {
+          "word": "business",
+          "start": 43.92,
+          "end": 44.22
+        },
+        {
+          "word": "cases,",
+          "start": 44.22,
+          "end": 44.78
+        },
+        {
+          "word": "managing",
+          "start": 45.16,
+          "end": 45.5
+        },
+        {
+          "word": "risk,",
+          "start": 45.5,
+          "end": 45.96
+        },
+        {
+          "word": "and",
+          "start": 46.26,
+          "end": 46.28
+        },
+        {
+          "word": "driving",
+          "start": 46.28,
+          "end": 46.58
+        },
+        {
+          "word": "adoption.",
+          "start": 46.58,
+          "end": 47.0
+        },
+        {
+          "word": "Earning",
+          "start": 48.04,
+          "end": 48.22
+        },
+        {
+          "word": "both",
+          "start": 48.22,
+          "end": 48.46
+        },
+        {
+          "word": "is",
+          "start": 48.46,
+          "end": 48.78
+        },
+        {
+          "word": "optional.",
+          "start": 48.78,
+          "end": 49.08
+        }
+      ],
+      "bullet_timings": [
+        {
+          "text": "Business and cross-functional roles",
+          "start": 1.73,
+          "end": 18.8
+        },
+        {
+          "text": "AI familiarity; no coding prerequisite",
+          "start": 18.8,
+          "end": 33.04
+        },
+        {
+          "text": "Different purpose from AI Practitioner",
+          "start": 33.04,
+          "end": 53.233333333333334
+        }
+      ]
+    }
+  ]
+}
