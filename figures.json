@@ -1,0 +1,440 @@
+{
+  "format": "skilleo-figures/v1",
+  "figure_count": 5,
+  "figures": {
+    "slide-m1-certification-landscape": {
+      "id": "slide-m1-certification-landscape",
+      "origin": "module",
+      "scene": {
+        "version": 2,
+        "source": "library",
+        "composition": "hierarchy",
+        "visualIntent": "show_comparison",
+        "layoutBias": "asymmetric",
+        "density": "normal",
+        "statement": "Choose a learning goal, not a compulsory ladder",
+        "thesis": "Choose a learning goal, not a compulsory ladder",
+        "nodes": [
+          {
+            "id": "goal",
+            "label": "Choose your learning goal",
+            "icon": "target",
+            "x": 0.5,
+            "y": 0.1,
+            "role": "hero",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "business",
+            "label": "AI Business Strategist: decisions",
+            "icon": "briefcase",
+            "x": 0.25,
+            "y": 0.34,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "ai",
+            "label": "AI Practitioner: foundations",
+            "icon": "brain",
+            "x": 0.75,
+            "y": 0.34,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "cloud",
+            "label": "Cloud Practitioner: cloud breadth",
+            "icon": "cloud",
+            "x": 0.25,
+            "y": 0.61,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "ml",
+            "label": "ML Engineer: implementation",
+            "icon": "code",
+            "x": 0.75,
+            "y": 0.61,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "genai",
+            "label": "GenAI Developer: advanced building",
+            "icon": "sparkles",
+            "x": 0.5,
+            "y": 0.87,
+            "role": "primary",
+            "shape": "rounded_rect"
+          }
+        ],
+        "relationships": [],
+        "focalNode": "goal",
+        "hierarchy": [
+          "goal",
+          "business",
+          "ai",
+          "cloud",
+          "ml",
+          "genai"
+        ],
+        "width": 960,
+        "height": 1080,
+        "animation_synced": false,
+        "libraryFigureId": "slide-m1-certification-landscape"
+      }
+    },
+    "slide-m1-first-business-decision": {
+      "id": "slide-m1-first-business-decision",
+      "origin": "module",
+      "scene": {
+        "version": 2,
+        "source": "library",
+        "composition": "process_flow",
+        "visualIntent": "show_flow",
+        "layoutBias": "asymmetric",
+        "density": "normal",
+        "statement": "A useful AI decision starts with the business problem",
+        "thesis": "A useful AI decision starts with the business problem",
+        "nodes": [
+          {
+            "id": "problem",
+            "label": "Long customer response times",
+            "icon": "messages-square",
+            "x": 0.5,
+            "y": 0.1,
+            "role": "source",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "options",
+            "label": "Compare process fixes and AI",
+            "icon": "search",
+            "x": 0.5,
+            "y": 0.3,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "value",
+            "label": "Define benefits and full costs",
+            "icon": "chart-column",
+            "x": 0.5,
+            "y": 0.5,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "risk",
+            "label": "Set quality and risk controls",
+            "icon": "shield-check",
+            "x": 0.5,
+            "y": 0.7,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "pilot",
+            "label": "Recommend a bounded pilot",
+            "icon": "check-circle",
+            "x": 0.5,
+            "y": 0.9,
+            "role": "result",
+            "shape": "rounded_rect"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "problem",
+            "to": "options",
+            "kind": "flow"
+          },
+          {
+            "from": "options",
+            "to": "value",
+            "kind": "flow"
+          },
+          {
+            "from": "value",
+            "to": "risk",
+            "kind": "flow"
+          },
+          {
+            "from": "risk",
+            "to": "pilot",
+            "kind": "flow"
+          }
+        ],
+        "focalNode": "pilot",
+        "hierarchy": [
+          "problem",
+          "options",
+          "value",
+          "risk",
+          "pilot"
+        ],
+        "width": 960,
+        "height": 1080,
+        "animation_synced": false,
+        "libraryFigureId": "slide-m1-first-business-decision"
+      }
+    },
+    "slide-m1-exam-domains": {
+      "id": "slide-m1-exam-domains",
+      "origin": "module",
+      "scene": {
+        "version": 2,
+        "source": "library",
+        "composition": "hierarchy",
+        "visualIntent": "show_flow",
+        "layoutBias": "asymmetric",
+        "density": "normal",
+        "statement": "Four domains support one complete business decision",
+        "thesis": "Four domains support one complete business decision",
+        "nodes": [
+          {
+            "id": "scope",
+            "label": "AIB-C01 exam scope",
+            "icon": "book-open",
+            "x": 0.5,
+            "y": 0.1,
+            "role": "hero",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "literacy",
+            "label": "AI fundamentals: 24%",
+            "icon": "brain",
+            "x": 0.25,
+            "y": 0.38,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "value",
+            "label": "Strategy and value: 28%",
+            "icon": "chart-column",
+            "x": 0.75,
+            "y": 0.38,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "governance",
+            "label": "Governance: 24%",
+            "icon": "shield-check",
+            "x": 0.25,
+            "y": 0.72,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "readiness",
+            "label": "Readiness and change: 24%",
+            "icon": "users",
+            "x": 0.75,
+            "y": 0.72,
+            "role": "primary",
+            "shape": "rounded_rect"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "scope",
+            "to": "literacy",
+            "kind": "flow"
+          },
+          {
+            "from": "scope",
+            "to": "value",
+            "kind": "flow"
+          },
+          {
+            "from": "scope",
+            "to": "governance",
+            "kind": "flow"
+          },
+          {
+            "from": "scope",
+            "to": "readiness",
+            "kind": "flow"
+          }
+        ],
+        "focalNode": "scope",
+        "hierarchy": [
+          "scope",
+          "literacy",
+          "value",
+          "governance",
+          "readiness"
+        ],
+        "width": 960,
+        "height": 1080,
+        "animation_synced": false,
+        "libraryFigureId": "slide-m1-exam-domains"
+      }
+    },
+    "slide-m1-course-outcomes": {
+      "id": "slide-m1-course-outcomes",
+      "origin": "module",
+      "scene": {
+        "version": 2,
+        "source": "library",
+        "composition": "process_flow",
+        "visualIntent": "show_flow",
+        "layoutBias": "asymmetric",
+        "density": "normal",
+        "statement": "Leave with a reasoned recommendation and supporting evidence",
+        "thesis": "Leave with a reasoned recommendation and supporting evidence",
+        "nodes": [
+          {
+            "id": "shortlist",
+            "label": "A prioritized use-case shortlist",
+            "icon": "clipboard-list",
+            "x": 0.5,
+            "y": 0.12,
+            "role": "source",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "case",
+            "label": "A business case with assumptions",
+            "icon": "chart-column",
+            "x": 0.5,
+            "y": 0.37,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "controls",
+            "label": "A risk and accountability plan",
+            "icon": "shield-check",
+            "x": 0.5,
+            "y": 0.62,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "adopt",
+            "label": "An adoption and scaling roadmap",
+            "icon": "route",
+            "x": 0.5,
+            "y": 0.87,
+            "role": "result",
+            "shape": "rounded_rect"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "shortlist",
+            "to": "case",
+            "kind": "flow"
+          },
+          {
+            "from": "case",
+            "to": "controls",
+            "kind": "flow"
+          },
+          {
+            "from": "controls",
+            "to": "adopt",
+            "kind": "flow"
+          }
+        ],
+        "focalNode": "adopt",
+        "hierarchy": [
+          "shortlist",
+          "case",
+          "controls",
+          "adopt"
+        ],
+        "width": 960,
+        "height": 1080,
+        "animation_synced": false,
+        "libraryFigureId": "slide-m1-course-outcomes"
+      }
+    },
+    "slide-m1-learning-approach": {
+      "id": "slide-m1-learning-approach",
+      "origin": "module",
+      "scene": {
+        "version": 2,
+        "source": "library",
+        "composition": "process_flow",
+        "visualIntent": "show_flow",
+        "layoutBias": "asymmetric",
+        "density": "normal",
+        "statement": "Learn by reviewing evidence and defending a decision",
+        "thesis": "Learn by reviewing evidence and defending a decision",
+        "nodes": [
+          {
+            "id": "source",
+            "label": "Review the official source",
+            "icon": "book-open",
+            "x": 0.5,
+            "y": 0.12,
+            "role": "source",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "choice",
+            "label": "Make a scenario decision",
+            "icon": "target",
+            "x": 0.5,
+            "y": 0.37,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "reason",
+            "label": "Explain the tradeoffs",
+            "icon": "messages-square",
+            "x": 0.5,
+            "y": 0.62,
+            "role": "primary",
+            "shape": "rounded_rect"
+          },
+          {
+            "id": "apply",
+            "label": "Apply the reasoning at work",
+            "icon": "briefcase",
+            "x": 0.5,
+            "y": 0.87,
+            "role": "result",
+            "shape": "rounded_rect"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "source",
+            "to": "choice",
+            "kind": "flow"
+          },
+          {
+            "from": "choice",
+            "to": "reason",
+            "kind": "flow"
+          },
+          {
+            "from": "reason",
+            "to": "apply",
+            "kind": "flow"
+          }
+        ],
+        "focalNode": "apply",
+        "hierarchy": [
+          "source",
+          "choice",
+          "reason",
+          "apply"
+        ],
+        "width": 960,
+        "height": 1080,
+        "animation_synced": false,
+        "libraryFigureId": "slide-m1-learning-approach"
+      }
+    }
+  }
+}

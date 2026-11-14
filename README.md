@@ -2,7 +2,11 @@
 
 A depth-focused, independent course and reproducible production foundation for Skilleo. Curriculum design, a scripted ROI pilot and the first rendered lesson are available; the full course remains in production.
 
-## Lesson 0 — recording-first Skilleo preview
+## Module 1 — course introduction (Lesson 0)
+
+[Download module1.md](module1.md) and [figures.json](figures.json): expanded native Skilleo authoring files with 16 slides and five supporting figures, including a dedicated Early Adopter section. [Sources and full-page recording plan](module1/recording-plan.md). This is an expanded content draft; new recording and ASR timings are pending.
+
+## Earlier two-slide recording-first preview
 
 [Download the two-slide introduction sample](lesson-00/review/lesson-00-native.mp4) — about 1 minute 38 seconds. Actual AWS page recordings captured with Playwriter, narration fitted afterward, and rendered with Skilleo's existing course renderer. [Native module files, source plan and pipeline details](lesson-00/README.md).
 

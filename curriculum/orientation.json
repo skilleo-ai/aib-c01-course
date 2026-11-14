@@ -1,7 +1,7 @@
 {
   "id": "lesson-0",
   "title": "Course introduction",
-  "status": "two_slide_review_sample",
+  "status": "expanded_script_ready",
   "sample_path": "lesson-00",
   "full_lesson_complete": false,
   "covered_in_sample": [
@@ -12,5 +12,12 @@
   "remaining_introduction_topics": [
     "Full course structure and learning approach",
     "Exam scope and how to use course resources"
-  ]
+  ],
+  "module_id": "module-1",
+  "module_file": "module1.md",
+  "lesson_label": "Lesson 0",
+  "expanded_script_path": "module1.md",
+  "figures_path": "figures.json",
+  "full_lesson_recorded": false,
+  "earlier_preview_path": "lesson-00"
 }

@@ -1,0 +1,33 @@
+{
+  "module_id": "module-1",
+  "lesson_label": "Lesson 0",
+  "script": "module1.md",
+  "figures": "figures.json",
+  "slides": 16,
+  "figure_count": 5,
+  "narration_words": 1909,
+  "status": "expanded_content_draft",
+  "recording_status": "not_recorded_for_this_expanded_script",
+  "timings_status": "pending_actual_recordings",
+  "early_adopter_deadline": "2027-02-15",
+  "early_adopter_rule": "Earn certification by the deadline; additional digital badge",
+  "source_review_date": "2026-11-14",
+  "slide_ids": [
+    "m1-welcome",
+    "m1-why-business-judgment",
+    "m1-adoption-versus-value",
+    "m1-audience",
+    "m1-entry-expectations",
+    "m1-scope-boundary",
+    "m1-ai-practitioner",
+    "m1-certification-landscape",
+    "m1-first-business-decision",
+    "m1-exam-domains",
+    "m1-course-outcomes",
+    "m1-beta-exam",
+    "m1-early-adopter",
+    "m1-official-preparation",
+    "m1-learning-approach",
+    "m1-your-goal"
+  ]
+}

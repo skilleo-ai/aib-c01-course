@@ -1,0 +1,33 @@
+const fs=require('node:fs');const path=require('node:path');
+const studio=path.resolve(process.argv[2]);const root=path.resolve(__dirname,'..');
+const ts=require(path.join(studio,'course-video/node_modules/typescript'));
+const compile=(module,filename)=>module._compile(ts.transpileModule(fs.readFileSync(filename,'utf8'),{fileName:filename,compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true,resolveJsonModule:true}}).outputText,filename);
+require.extensions['.ts']=compile;require.extensions['.tsx']=compile;
+const io=require(path.join(studio,'src/courseScriptIo.ts'));
+const doc=io.parseCourseScriptMarkdown(fs.readFileSync(path.join(root,'module1.md'),'utf8'));
+const bundle=JSON.parse(fs.readFileSync(path.join(root,'figures.json'),'utf8'));
+const library=Object.fromEntries(Object.entries(bundle.figures).map(([key,value])=>[key,value.scene]));
+const native=io.courseScriptDocToModules(doc,{figureLibrary:library});
+if(doc.modules.length!==1 || doc.modules[0].id!=='module-1')throw Error('Wrong module numbering');
+const slides=native[0].slides;
+if(slides.length!==16)throw Error('Missing introduction slides');
+if(new Set(slides.map(s=>s.id)).size!==slides.length)throw Error('Duplicate slide IDs');
+let count=0;
+for(const slide of slides){
+ if(!slide.script || slide.bullets.length!==3)throw Error('Missing narration/bullets');
+ const fig=slide.figure_scene;
+ if(!fig)continue;
+ count++;
+ if(fig.animation_synced!==false)throw Error('Unmeasured figure incorrectly synchronized');
+ const nodes=new Set(fig.nodes.map(n=>n.id));
+ for(const n of fig.nodes)if(n.x<0||n.x>1||n.y<0||n.y>1)throw Error('Node outside normalized bounds');
+ for(const edge of fig.relationships||[])if(!nodes.has(edge.from)||!nodes.has(edge.to))throw Error('Unbound figure relationship');
+ const key='slide-'+slide.id;
+ if(!library[key] || fig.libraryFigureId!==key)throw Error('Figure did not bind to its slide');
+}
+if(count!==5||bundle.figure_count!==5)throw Error('Figure count mismatch');
+const early=slides.find(s=>s.id==='m1-early-adopter');
+if(!early.script.includes('15 February 2027') || !early.script.includes('earn this certification'))throw Error('Missing Early Adopter rule');
+const report={status:'passed',native_parser:'Skilleo parseCourseScriptMarkdown + courseScriptDocToModules',module_id:native[0].id,lesson_label:'Lesson 0',slides:slides.length,figures_bound:count,stable_ids_preserved:true,asr_generated:false,early_adopter_included:true};
+fs.writeFileSync(path.join(__dirname,'validation.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));

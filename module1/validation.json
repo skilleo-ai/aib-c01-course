@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "native_parser": "Skilleo parseCourseScriptMarkdown + courseScriptDocToModules",
+  "module_id": "module-1",
+  "lesson_label": "Lesson 0",
+  "slides": 16,
+  "figures_bound": 5,
+  "stable_ids_preserved": true,
+  "asr_generated": false,
+  "early_adopter_included": true
+}
