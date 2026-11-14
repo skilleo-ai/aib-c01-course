@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00:00.750 --> 00:00:03.459
+Imagine you're in a planning meeting at a retailer.
+
+00:00:03.559 --> 00:00:06.354
+One team wants to forecast next month's demand.
+
+00:00:06.454 --> 00:00:08.843
+Another wants to draft product descriptions.
+
+00:00:08.943 --> 00:00:13.935
+A third wants a ten percent discount applied to every order over one hundred dollars.
+
+00:00:14.035 --> 00:00:17.427
+Someone calls all three projects artificial intelligence.
+
+00:00:17.527 --> 00:00:20.258
+Should you treat them as the same kind of investment?
+
+00:00:20.358 --> 00:00:21.425
+Probably not.
+
+00:00:21.525 --> 00:00:26.154
+They produce different outputs, depend on different evidence, and need different checks.
+
+00:00:26.254 --> 00:00:35.662
+In this lesson, we'll separate artificial intelligence, machine learning, and generative AI, using decisions a business leader might actually face.
+
+00:00:35.762 --> 00:00:37.319
+You won't need to write code.
+
+00:00:37.419 --> 00:00:42.134
+Your job is to ask better questions about the work the system is meant to do.
+
+00:00:44.984 --> 00:00:54.349
+By the end, you should be able to explain how these terms fit together, classify a business use case, and choose what kind of evidence would demonstrate success.
+
+00:00:54.449 --> 00:00:57.948
+Start with one question: what output does the business need?
+
+00:00:58.048 --> 00:01:00.224
+Sometimes it's a fixed calculation.
+
+00:01:00.324 --> 00:01:04.015
+Sometimes it's a prediction, a category, or a recommendation.
+
+00:01:04.115 --> 00:01:08.637
+Sometimes it's a new piece of text, an image, or another form of content.
+
+00:01:08.737 --> 00:01:12.321
+That question is more useful than starting with a product name.
+
+00:01:12.421 --> 00:01:21.296
+A single business process can combine several of these capabilities, so we'll classify the individual tasks before we describe the whole solution.
+
+00:01:24.146 --> 00:01:34.855
+Artificial intelligence is the broad field of building systems that perform tasks associated with intelligence, such as recognizing patterns, understanding language,
+
+00:01:34.955 --> 00:01:37.281
+reasoning, or making recommendations.
+
+00:01:37.381 --> 00:01:41.946
+It doesn't mean a computer thinks or understands in the same way a person does.
+
+00:01:42.046 --> 00:01:45.331
+And AI isn't limited to systems that learn from data.
+
+00:01:45.431 --> 00:01:49.378
+Some approaches use explicitly represented knowledge and rules.
+
+00:01:49.478 --> 00:01:54.001
+That's why we should avoid saying that every rule-based system is outside AI.
+
+00:01:54.101 --> 00:02:01.653
+For the retailer's simple discount calculation, though, ordinary deterministic automation is a sufficient description.
+
+00:02:01.753 --> 00:02:05.571
+Calling a basic formula AI doesn't make it a better investment.
+
+00:02:05.671 --> 00:02:10.429
+Describe what the system actually does and what capability the task requires.
+
+00:02:13.279 --> 00:02:22.089
+Machine learning is a family of AI methods that learns patterns from data rather than requiring a person to specify every decision rule.
+
+00:02:22.189 --> 00:02:23.960
+Think about the demand forecast.
+
+00:02:24.060 --> 00:02:30.887
+Historical sales, promotions, prices, and seasonal patterns might help a model estimate future sales.
+
+00:02:30.987 --> 00:02:36.149
+Training is the process that uses data to learn the model's patterns or parameters.
+
+00:02:36.249 --> 00:02:40.772
+Inference is using the resulting model on an input to produce an output.
+
+00:02:40.872 --> 00:02:45.352
+The output might be a number, a category, a ranking, or a recommendation.
+
+00:02:45.452 --> 00:02:50.081
+Learning doesn't imply the model is correct, fair, or ready for production.
+
+00:02:50.181 --> 00:02:53.659
+Those claims need evaluation using relevant evidence.
+
+00:02:53.759 --> 00:02:57.449
+We'll examine training and inference more closely in the next lesson.
+
+00:03:00.299 --> 00:03:02.219
+Let's make the forecast concrete.
+
+00:03:02.319 --> 00:03:06.330
+The retailer asks: how many winter jackets should we stock next month?
+
+00:03:06.430 --> 00:03:11.550
+A machine learning model can estimate a quantity using patterns in relevant data.
+
+00:03:11.650 --> 00:03:15.490
+But a prediction is an estimate, not a guaranteed future outcome.
+
+00:03:15.590 --> 00:03:22.139
+If customer behavior changes or the data misses a major promotion, performance can deteriorate.
+
+00:03:22.239 --> 00:03:28.810
+To evaluate the proposal, compare forecasts with actual demand on suitable held-out or future data.
+
+00:03:28.910 --> 00:03:34.222
+Also compare with a sensible existing approach, such as the current forecasting process.
+
+00:03:34.322 --> 00:03:41.981
+Better model accuracy matters only if it supports a business outcome, such as fewer stockouts without excessive inventory.
+
+00:03:42.081 --> 00:03:46.070
+A convincing demonstration alone doesn't establish that value.
+
+00:03:48.920 --> 00:03:56.045
+Generative AI creates content, such as text, images, audio, or code, using patterns learned from data.
+
+00:03:56.145 --> 00:04:02.225
+Modern generative AI systems are built with machine learning, often using large neural networks.
+
+00:04:02.325 --> 00:04:09.301
+For business classification, distinguish generating content from estimating a target such as next month's sales.
+
+00:04:09.401 --> 00:04:16.143
+The technical boundary is more subtle: a language model itself predicts tokens as it generates text.
+
+00:04:16.243 --> 00:04:26.035
+So when we say prediction versus generation here, we're describing the business task and output, not claiming that the underlying mathematics never overlaps.
+
+00:04:26.135 --> 00:04:29.953
+A fluent response is also not proof of factual correctness.
+
+00:04:30.053 --> 00:04:35.600
+Generating plausible language and verifying a product claim are different responsibilities.
+
+00:04:38.450 --> 00:04:42.930
+Now the marketing team wants a product description for a new winter jacket.
+
+00:04:43.030 --> 00:04:49.089
+A generative AI system can draft copy from an approved product record and a style instruction.
+
+00:04:49.189 --> 00:04:52.837
+Success isn't measured in the same way as a demand forecast.
+
+00:04:52.937 --> 00:05:01.555
+Review whether the copy preserves product facts, follows the intended tone, avoids unsupported claims, and is useful to customers.
+
+00:05:01.655 --> 00:05:06.093
+If the jacket isn't waterproof, polished wording must not imply that it is.
+
+00:05:06.193 --> 00:05:11.185
+Human review or other appropriate checks should match the risk of publishing an error.
+
+00:05:11.285 --> 00:05:17.151
+You can also measure net drafting time, including the time spent reviewing and correcting the output.
+
+00:05:17.251 --> 00:05:22.009
+Fast generation doesn't automatically mean the complete workflow saves time.
+
+00:05:24.859 --> 00:05:26.821
+Here's the relationship to remember.
+
+00:05:26.921 --> 00:05:29.823
+Artificial intelligence is the broad umbrella.
+
+00:05:29.923 --> 00:05:32.547
+Machine learning is one important part of it.
+
+00:05:32.647 --> 00:05:38.279
+The modern generative AI systems we're discussing use machine learning to generate content.
+
+00:05:38.379 --> 00:05:44.331
+So the same product can accurately be described as AI, machine learning, and generative AI.
+
+00:05:44.431 --> 00:05:49.785
+These are not three competing vendors or three mutually exclusive purchasing categories.
+
+00:05:49.885 --> 00:06:00.061
+At the same time, many machine learning applications are not primarily generative: a fraud classifier or a demand forecaster has a different business purpose.
+
+00:06:00.161 --> 00:06:05.623
+Use the more specific description when it helps clarify the output, the evidence, and the risks.
+
+00:06:05.723 --> 00:06:10.736
+Avoid choosing a capability just because the broadest label sounds impressive.
+
+00:06:13.586 --> 00:06:14.973
+Return to the discount.
+
+00:06:15.073 --> 00:06:21.750
+The policy is unambiguous: if an eligible order exceeds one hundred dollars, apply ten percent off.
+
+00:06:21.850 --> 00:06:26.010
+A fixed rule is transparent and easy to test against known cases.
+
+00:06:26.110 --> 00:06:31.059
+You don't need a learned model to infer a policy the business has already specified.
+
+00:06:31.159 --> 00:06:35.383
+That doesn't mean rules are always simple or that AI can never use rules.
+
+00:06:35.483 --> 00:06:41.414
+It means this task has an explicit, stable relationship between input and expected output.
+
+00:06:41.514 --> 00:06:47.125
+If the business later wants to personalize offers based on response patterns, that's a different problem.
+
+00:06:47.225 --> 00:06:52.387
+Revisit the requirements rather than automatically replacing every rule with a model.
+
+00:06:55.237 --> 00:06:57.904
+Real products often combine capabilities.
+
+00:06:58.004 --> 00:07:07.583
+The retailer might use machine learning to forecast demand, an explicit business rule to flag low stock, and generative AI to draft a buyer's summary.
+
+00:07:07.683 --> 00:07:12.995
+Calling the whole workflow a generative AI solution can hide important dependencies.
+
+00:07:13.095 --> 00:07:20.199
+If a summary reads well but the forecast is unreliable, the process can still make a bad purchasing recommendation.
+
+00:07:20.299 --> 00:07:23.413
+Evaluate each component and the end-to-end outcome.
+
+00:07:23.513 --> 00:07:29.785
+Ask what data enters each stage, who can act on the output, and what happens when a component is wrong.
+
+00:07:29.885 --> 00:07:39.912
+This task-level view helps business leaders discuss the proposal clearly with technical teams without needing to choose algorithms or configure services.
+
+00:07:42.762 --> 00:07:45.471
+Here's a practical way to review a proposal.
+
+00:07:45.571 --> 00:07:48.025
+First, ask what output the task needs.
+
+00:07:48.125 --> 00:07:53.309
+Second, ask whether that output follows an explicit rule or depends on learned patterns.
+
+00:07:53.409 --> 00:07:57.910
+Third, ask how success will be evaluated in the actual business process.
+
+00:07:58.010 --> 00:08:01.978
+For the discount, test the calculation and policy boundary cases.
+
+00:08:02.078 --> 00:08:08.137
+For the forecast, evaluate error against an appropriate baseline and measure inventory effects.
+
+00:08:08.237 --> 00:08:14.637
+For product copy, evaluate factual accuracy and suitability, alongside the time needed to review it.
+
+00:08:14.737 --> 00:08:19.707
+None of these checks is replaced by an impressive demo or a confident vendor claim.
+
+00:08:19.807 --> 00:08:24.991
+The capability label helps organize the discussion; evidence supports the decision.
+
+00:08:27.841 --> 00:08:29.783
+Let's try three short examples.
+
+00:08:29.883 --> 00:08:34.875
+A: a system calculates tax using a rate and rules supplied by finance.
+
+00:08:34.975 --> 00:08:41.012
+B: a system learns from historical customer behavior to estimate the probability of churn.
+
+00:08:41.112 --> 00:08:46.744
+C: a system drafts a customer email using an approved offer and a tone instruction.
+
+00:08:46.844 --> 00:08:54.865
+Which is best described as ordinary rule-based automation, which as predictive machine learning, and which as generative AI?
+
+00:08:54.965 --> 00:08:59.125
+Think about the task's output rather than whether the interface looks modern.
+
+00:08:59.225 --> 00:09:00.953
+I'll give you a moment to decide.
+
+00:09:10.803 --> 00:09:17.246
+A is ordinary rule-based automation in this scenario: the calculation applies a specified policy.
+
+00:09:17.346 --> 00:09:24.087
+B is predictive machine learning: the system learns from historical data to estimate a probability.
+
+00:09:24.187 --> 00:09:29.478
+C is generative AI: it creates an email draft from instructions and context.
+
+00:09:29.578 --> 00:09:33.354
+That draft still needs checks for offer accuracy and appropriateness.
+
+00:09:33.454 --> 00:09:40.601
+B and C both use machine learning in the modern systems we've described, but they serve different business purposes.
+
+00:09:40.701 --> 00:09:47.527
+If you classified by output and explained the evidence each task needs, you've understood the central distinction.
+
+00:09:47.627 --> 00:09:53.366
+If you only memorized three labels, return to the examples and explain why each choice fits.
+
+00:09:56.216 --> 00:09:57.667
+Let's bring this together.
+
+00:09:57.767 --> 00:09:59.324
+AI is the broad field.
+
+00:09:59.424 --> 00:10:01.877
+Machine learning learns patterns from data.
+
+00:10:01.977 --> 00:10:06.031
+Modern generative AI uses learned patterns to create content.
+
+00:10:06.131 --> 00:10:12.509
+Ordinary deterministic automation remains useful when the business can specify a suitable rule.
+
+00:10:12.609 --> 00:10:21.676
+These descriptions help you ask what the system produces, what evidence would make it trustworthy for its purpose, and whether the capability is worth using.
+
+00:10:21.776 --> 00:10:30.203
+For your own workplace, choose one task and write down its required output, the simplest suitable approach, and how you'd evaluate success.
+
+00:10:30.303 --> 00:10:39.284
+In the next lesson, we'll build on this foundation by separating training from inference and examining what historical data can and cannot prove.

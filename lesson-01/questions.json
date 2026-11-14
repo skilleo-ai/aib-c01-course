@@ -1,0 +1,91 @@
+[
+  {
+    "id": "L01-Q01",
+    "skills": [
+      "1.1.2"
+    ],
+    "question": "A retailer learns from historical sales and promotions to estimate next month\u2019s demand. Which description best fits the primary task?",
+    "options": {
+      "A": "Predictive machine learning",
+      "B": "Generative AI drafting new marketing content",
+      "C": "A fixed calculation using an explicitly specified discount rule",
+      "D": "Evidence that every AI approach learns from data"
+    },
+    "correct": [
+      "A"
+    ],
+    "rationales": {
+      "A": "It learns patterns from historical examples and estimates a business quantity.",
+      "B": "The stated output is a demand estimate, rather than a content draft.",
+      "C": "The scenario describes learning from data, not merely applying a specified policy.",
+      "D": "This example uses ML, but it does not establish that all AI approaches require ML."
+    }
+  },
+  {
+    "id": "L01-Q02",
+    "skills": [
+      "1.1.2"
+    ],
+    "question": "A modern language model drafts a product description. Which relationship is most accurate?",
+    "options": {
+      "A": "It can be described as generative AI, machine learning and AI",
+      "B": "Generative AI is a purchasing category that excludes machine learning",
+      "C": "Every machine learning application is primarily a content generator",
+      "D": "Fluent generated text establishes that its product claims are correct"
+    },
+    "correct": [
+      "A"
+    ],
+    "rationales": {
+      "A": "Modern generative language models use ML within the broader field of AI.",
+      "B": "The categories overlap rather than being mutually exclusive.",
+      "C": "Many ML tasks focus on classification, forecasting or ranking.",
+      "D": "Factual correctness needs evidence; fluency is insufficient."
+    }
+  },
+  {
+    "id": "L01-Q03",
+    "skills": [
+      "1.1.1"
+    ],
+    "question": "A sales policy applies a 10% discount whenever an eligible order exceeds $100. What is the strongest starting recommendation?",
+    "options": {
+      "A": "Use a deterministic rule and test the policy\u2019s boundary cases",
+      "B": "Train a demand model to infer the already specified discount",
+      "C": "Let a text generator choose the discount without constraints",
+      "D": "Assume that any rule-based system must be outside AI"
+    },
+    "correct": [
+      "A"
+    ],
+    "rationales": {
+      "A": "The relationship between input and expected output is explicit, so ordinary automation is suitable.",
+      "B": "Learning an explicit stable policy adds unnecessary complexity for this requirement.",
+      "C": "A generated choice need not follow the approved policy.",
+      "D": "Some AI approaches use explicit knowledge and rules; the recommendation follows this task\u2019s requirements rather than a universal exclusion."
+    }
+  },
+  {
+    "id": "L01-Q04",
+    "skills": [
+      "1.1.1",
+      "1.1.2"
+    ],
+    "question": "A system forecasts demand, applies an inventory threshold and drafts a purchasing summary. How should a business leader evaluate it?",
+    "options": {
+      "A": "Evaluate the individual tasks and the end-to-end business outcome",
+      "B": "Evaluate only the writing quality because the final screen contains text",
+      "C": "Treat a confident summary as proof that the forecast is accurate",
+      "D": "Assume one capability label establishes every component\u2019s reliability"
+    },
+    "correct": [
+      "A"
+    ],
+    "rationales": {
+      "A": "The workflow combines learned estimates, explicit rules and generation, with dependencies across stages.",
+      "B": "Good writing cannot compensate for an unreliable forecast or incorrect threshold.",
+      "C": "Language confidence is not verification of an upstream estimate.",
+      "D": "A label organizes the discussion but does not replace task-relevant evidence."
+    }
+  }
+]

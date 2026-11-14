@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aws-domain-1",
+    "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain1.html",
+    "role": "Exam skills 1.1.1 and 1.1.2",
+    "retrieved_at": "2026-11-14T02:26:33.107786+00:00",
+    "sha256": "251689126df8ea8c2135e83d28a1bf5e59d0c39016eb98dff7b44bc1537d1861",
+    "status": "retrieved",
+    "reuse": "Fact reference; no third-party page visuals copied"
+  },
+  {
+    "id": "aws-what-is-ai",
+    "url": "https://aws.amazon.com/what-is/artificial-intelligence/",
+    "role": "AI scope and business use",
+    "retrieved_at": "2026-11-14T02:26:33.420582+00:00",
+    "sha256": "ddfca6d471e451b13c718fa73aee3b5cc9c026e5fad241c06f428a1ade4bd519",
+    "status": "retrieved",
+    "reuse": "Fact reference; no third-party page visuals copied"
+  },
+  {
+    "id": "aws-what-is-ml",
+    "url": "https://aws.amazon.com/what-is/machine-learning/",
+    "role": "Learning patterns, model development and business applications",
+    "retrieved_at": "2026-11-14T02:26:33.650516+00:00",
+    "sha256": "53047d6efb0bcb26b7f67060aab3fa37495436e3ee611f3c8ed096edd7045fc3",
+    "status": "retrieved",
+    "reuse": "Fact reference; no third-party page visuals copied"
+  },
+  {
+    "id": "aws-what-is-genai",
+    "url": "https://aws.amazon.com/what-is/generative-ai/",
+    "role": "Content generation and relation to ML",
+    "retrieved_at": "2026-11-14T02:26:33.952907+00:00",
+    "sha256": "86da7007b8705547e77dc8865f7d51a73ace76951a32227f57ff8ab2f1077c41",
+    "status": "retrieved",
+    "reuse": "Fact reference; no third-party page visuals copied"
+  }
+]

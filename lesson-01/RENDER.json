@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 641.384,
+  "visual_events": 518,
+  "size_bytes": 22456493,
+  "frame_rate_mode": "constant 30 fps",
+  "caption_timing": "Measured synthesized phrase boundaries; frame-quantized within 1/30 second",
+  "voice": "Kokoro af_heart, speed 0.94; local synthesis approved by user",
+  "status": "review_build_not_expert_approved"
+}

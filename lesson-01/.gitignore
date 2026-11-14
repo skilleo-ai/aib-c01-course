@@ -1,0 +1,8 @@
+.hyperframes/
+renders/
+build/
+assets/audio/*.wav
+assets/audio/*-p*.wav
+check.json
+check-full.json
+snapshot*.png

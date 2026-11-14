@@ -1,0 +1,54 @@
+{
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "warnings_reviewed": {
+    "nested_structure_needs_subcomposition": "Scene grouping suggestions for future modularization; source is valid and renders correctly.",
+    "timeline_track_too_dense": "Alternating scene tracks are intentional for short dissolves.",
+    "dead_stretch": "Intentional holds while the instructor explains the diagram; review export adds timed captions throughout.",
+    "first_frame_empty": "Brief opening fade; a separate readable poster is supplied.",
+    "text_below_floor": "Navigation and course footer metadata are smaller than main teaching text; principal content and diagram labels remain at least 28px."
+  },
+  "encoded_media": {
+    "video": "1920x1080 H.264 constant 30 fps",
+    "audio": "AAC 48000 Hz",
+    "container_seconds": 641.376,
+    "audio_video_duration_difference_seconds": 0.009333,
+    "integrated_loudness_lufs": -16.3,
+    "true_peak_dbtp": -1.42,
+    "caption_check": "Inspected burned-in caption at 12 seconds in final constant-frame-rate export",
+    "visual_check": "Inspected all 14 hero frames plus opening and final captioned frame"
+  }
+}

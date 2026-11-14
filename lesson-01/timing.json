@@ -1,0 +1,366 @@
+[
+  {
+    "id": "s01",
+    "title": "AI, ML and generative AI",
+    "kicker": "LESSON 01 \u00b7 FOUNDATIONS",
+    "narration": "Imagine you're in a planning meeting at a retailer. One team wants to forecast next month's demand. Another wants to draft product descriptions. A third wants a ten percent discount applied to every order over one hundred dollars. Someone calls all three projects artificial intelligence. Should you treat them as the same kind of investment? Probably not. They produce different outputs, depend on different evidence, and need different checks. In this lesson, we'll separate artificial intelligence, machine learning, and generative AI, using decisions a business leader might actually face. You won't need to write code. Your job is to ask better questions about the work the system is meant to do.",
+    "kind": "cards",
+    "items": [
+      [
+        "Forecast demand",
+        "Estimate a future quantity"
+      ],
+      [
+        "Draft descriptions",
+        "Create new content"
+      ],
+      [
+        "Apply a discount",
+        "Execute an explicit rule"
+      ]
+    ],
+    "note": "Fictional retail examples \u00b7 Independent AIB-C01 preparation",
+    "hold": 2,
+    "start": 0.0,
+    "duration": 44.234,
+    "audio": "assets/audio/s01.wav"
+  },
+  {
+    "id": "s02",
+    "title": "Start with the output",
+    "kicker": "A PRACTICAL CLASSIFICATION",
+    "narration": "By the end, you should be able to explain how these terms fit together, classify a business use case, and choose what kind of evidence would demonstrate success. Start with one question: what output does the business need? Sometimes it's a fixed calculation. Sometimes it's a prediction, a category, or a recommendation. Sometimes it's a new piece of text, an image, or another form of content. That question is more useful than starting with a product name. A single business process can combine several of these capabilities, so we'll classify the individual tasks before we describe the whole solution.",
+    "kind": "cards",
+    "items": [
+      [
+        "Explain",
+        "How the concepts relate"
+      ],
+      [
+        "Classify",
+        "What each task produces"
+      ],
+      [
+        "Evaluate",
+        "What success requires"
+      ]
+    ],
+    "note": "",
+    "hold": 2,
+    "start": 44.234,
+    "duration": 39.162,
+    "audio": "assets/audio/s02.wav"
+  },
+  {
+    "id": "s03",
+    "title": "Artificial intelligence is the umbrella",
+    "kicker": "THE BIG PICTURE",
+    "narration": "Artificial intelligence is the broad field of building systems that perform tasks associated with intelligence, such as recognizing patterns, understanding language, reasoning, or making recommendations. It doesn't mean a computer thinks or understands in the same way a person does. And AI isn't limited to systems that learn from data. Some approaches use explicitly represented knowledge and rules. That's why we should avoid saying that every rule-based system is outside AI. For the retailer's simple discount calculation, though, ordinary deterministic automation is a sufficient description. Calling a basic formula AI doesn't make it a better investment. Describe what the system actually does and what capability the task requires.",
+    "kind": "umbrella",
+    "items": [
+      [
+        "AI",
+        "The broad field"
+      ],
+      [
+        "Machine learning",
+        "Methods that learn patterns from data"
+      ],
+      [
+        "Generative AI",
+        "Modern content-generating models use ML"
+      ]
+    ],
+    "note": "Not every AI approach uses machine learning.",
+    "hold": 2,
+    "start": 83.396,
+    "duration": 49.132667,
+    "audio": "assets/audio/s03.wav"
+  },
+  {
+    "id": "s04",
+    "title": "Machine learning learns from examples",
+    "kicker": "PATTERNS FROM DATA",
+    "narration": "Machine learning is a family of AI methods that learns patterns from data rather than requiring a person to specify every decision rule. Think about the demand forecast. Historical sales, promotions, prices, and seasonal patterns might help a model estimate future sales. Training is the process that uses data to learn the model's patterns or parameters. Inference is using the resulting model on an input to produce an output. The output might be a number, a category, a ranking, or a recommendation. Learning doesn't imply the model is correct, fair, or ready for production. Those claims need evaluation using relevant evidence. We'll examine training and inference more closely in the next lesson.",
+    "kind": "flow",
+    "items": [
+      [
+        "Historical examples",
+        "Sales \u00b7 prices \u00b7 promotions"
+      ],
+      [
+        "Training",
+        "Learn useful patterns"
+      ],
+      [
+        "Inference",
+        "Estimate demand from new inputs"
+      ]
+    ],
+    "note": "A learned pattern still needs evaluation.",
+    "hold": 2,
+    "start": 132.528667,
+    "duration": 47.020667,
+    "audio": "assets/audio/s04.wav"
+  },
+  {
+    "id": "s05",
+    "title": "A forecast needs a meaningful baseline",
+    "kicker": "RETAIL CASE \u00b7 PREDICTION",
+    "narration": "Let's make the forecast concrete. The retailer asks: how many winter jackets should we stock next month? A machine learning model can estimate a quantity using patterns in relevant data. But a prediction is an estimate, not a guaranteed future outcome. If customer behavior changes or the data misses a major promotion, performance can deteriorate. To evaluate the proposal, compare forecasts with actual demand on suitable held-out or future data. Also compare with a sensible existing approach, such as the current forecasting process. Better model accuracy matters only if it supports a business outcome, such as fewer stockouts without excessive inventory. A convincing demonstration alone doesn't establish that value.",
+    "kind": "cards",
+    "items": [
+      [
+        "Business question",
+        "How many jackets next month?"
+      ],
+      [
+        "Model output",
+        "An estimated quantity"
+      ],
+      [
+        "Evidence",
+        "Forecast error + inventory outcomes"
+      ]
+    ],
+    "note": "Compare against a relevant existing approach.",
+    "hold": 2,
+    "start": 179.549333,
+    "duration": 48.620667,
+    "audio": "assets/audio/s05.wav"
+  },
+  {
+    "id": "s06",
+    "title": "Generative AI creates content",
+    "kicker": "FROM PATTERNS TO NEW OUTPUTS",
+    "narration": "Generative AI creates content, such as text, images, audio, or code, using patterns learned from data. Modern generative AI systems are built with machine learning, often using large neural networks. For business classification, distinguish generating content from estimating a target such as next month's sales. The technical boundary is more subtle: a language model itself predicts tokens as it generates text. So when we say prediction versus generation here, we're describing the business task and output, not claiming that the underlying mathematics never overlaps. A fluent response is also not proof of factual correctness. Generating plausible language and verifying a product claim are different responsibilities.",
+    "kind": "cards",
+    "items": [
+      [
+        "Input",
+        "A prompt and relevant context"
+      ],
+      [
+        "Output",
+        "New text, images, audio or code"
+      ],
+      [
+        "Check",
+        "Accuracy, suitability and safety"
+      ]
+    ],
+    "note": "Fluent language is not evidence that a claim is true.",
+    "hold": 2,
+    "start": 228.17,
+    "duration": 49.53,
+    "audio": "assets/audio/s06.wav"
+  },
+  {
+    "id": "s07",
+    "title": "Drafting a description is generation",
+    "kicker": "RETAIL CASE \u00b7 CONTENT",
+    "narration": "Now the marketing team wants a product description for a new winter jacket. A generative AI system can draft copy from an approved product record and a style instruction. Success isn't measured in the same way as a demand forecast. Review whether the copy preserves product facts, follows the intended tone, avoids unsupported claims, and is useful to customers. If the jacket isn't waterproof, polished wording must not imply that it is. Human review or other appropriate checks should match the risk of publishing an error. You can also measure net drafting time, including the time spent reviewing and correcting the output. Fast generation doesn't automatically mean the complete workflow saves time.",
+    "kind": "comparison",
+    "items": [
+      [
+        "Approved facts",
+        "Water-resistant fabric; recycled lining"
+      ],
+      [
+        "Generated draft",
+        "A new description based on those facts"
+      ],
+      [
+        "Review question",
+        "Did it invent a waterproof claim?"
+      ]
+    ],
+    "note": "Illustrative product facts \u00b7 All examples are synthetic.",
+    "hold": 2,
+    "start": 277.7,
+    "duration": 46.408667,
+    "audio": "assets/audio/s07.wav"
+  },
+  {
+    "id": "s08",
+    "title": "The terms overlap",
+    "kicker": "RELATIONSHIPS, NOT RIVAL PRODUCTS",
+    "narration": "Here's the relationship to remember. Artificial intelligence is the broad umbrella. Machine learning is one important part of it. The modern generative AI systems we're discussing use machine learning to generate content. So the same product can accurately be described as AI, machine learning, and generative AI. These are not three competing vendors or three mutually exclusive purchasing categories. At the same time, many machine learning applications are not primarily generative: a fraud classifier or a demand forecaster has a different business purpose. Use the more specific description when it helps clarify the output, the evidence, and the risks. Avoid choosing a capability just because the broadest label sounds impressive.",
+    "kind": "umbrella",
+    "items": [
+      [
+        "Artificial intelligence",
+        "Broad family of approaches"
+      ],
+      [
+        "Machine learning",
+        "Learns patterns from data"
+      ],
+      [
+        "Generative AI",
+        "Generates content using learned patterns"
+      ]
+    ],
+    "note": "One system can belong to all three categories.",
+    "hold": 2,
+    "start": 324.108667,
+    "duration": 48.727333,
+    "audio": "assets/audio/s08.wav"
+  },
+  {
+    "id": "s09",
+    "title": "Use the simplest suitable approach",
+    "kicker": "RETAIL CASE \u00b7 EXPLICIT RULES",
+    "narration": "Return to the discount. The policy is unambiguous: if an eligible order exceeds one hundred dollars, apply ten percent off. A fixed rule is transparent and easy to test against known cases. You don't need a learned model to infer a policy the business has already specified. That doesn't mean rules are always simple or that AI can never use rules. It means this task has an explicit, stable relationship between input and expected output. If the business later wants to personalize offers based on response patterns, that's a different problem. Revisit the requirements rather than automatically replacing every rule with a model.",
+    "kind": "flow",
+    "items": [
+      [
+        "Order input",
+        "Eligible order value > $100"
+      ],
+      [
+        "Specified policy",
+        "Apply a 10% discount"
+      ],
+      [
+        "Expected output",
+        "A deterministic calculation"
+      ]
+    ],
+    "note": "The requirement determines whether learning is useful.",
+    "hold": 2,
+    "start": 372.836,
+    "duration": 41.651333,
+    "audio": "assets/audio/s09.wav"
+  },
+  {
+    "id": "s10",
+    "title": "One workflow can combine all three",
+    "kicker": "BREAK THE PROCESS INTO TASKS",
+    "narration": "Real products often combine capabilities. The retailer might use machine learning to forecast demand, an explicit business rule to flag low stock, and generative AI to draft a buyer's summary. Calling the whole workflow a generative AI solution can hide important dependencies. If a summary reads well but the forecast is unreliable, the process can still make a bad purchasing recommendation. Evaluate each component and the end-to-end outcome. Ask what data enters each stage, who can act on the output, and what happens when a component is wrong. This task-level view helps business leaders discuss the proposal clearly with technical teams without needing to choose algorithms or configure services.",
+    "kind": "flow",
+    "items": [
+      [
+        "Forecast",
+        "ML estimates demand"
+      ],
+      [
+        "Flag",
+        "A rule detects low stock"
+      ],
+      [
+        "Explain",
+        "GenAI drafts a buyer summary"
+      ]
+    ],
+    "note": "Check components and the end-to-end business outcome.",
+    "hold": 2,
+    "start": 414.487333,
+    "duration": 47.524667,
+    "audio": "assets/audio/s10.wav"
+  },
+  {
+    "id": "s11",
+    "title": "Match the evidence to the task",
+    "kicker": "THREE QUESTIONS TO TAKE INTO A MEETING",
+    "narration": "Here's a practical way to review a proposal. First, ask what output the task needs. Second, ask whether that output follows an explicit rule or depends on learned patterns. Third, ask how success will be evaluated in the actual business process. For the discount, test the calculation and policy boundary cases. For the forecast, evaluate error against an appropriate baseline and measure inventory effects. For product copy, evaluate factual accuracy and suitability, alongside the time needed to review it. None of these checks is replaced by an impressive demo or a confident vendor claim. The capability label helps organize the discussion; evidence supports the decision.",
+    "kind": "cards",
+    "items": [
+      [
+        "Rules",
+        "Policy correctness + boundary tests"
+      ],
+      [
+        "Forecasts",
+        "Error + baseline + business outcomes"
+      ],
+      [
+        "Generated copy",
+        "Facts + suitability + net effort"
+      ]
+    ],
+    "note": "Different outputs call for different evaluation evidence.",
+    "hold": 2,
+    "start": 462.012,
+    "duration": 45.079333,
+    "audio": "assets/audio/s11.wav"
+  },
+  {
+    "id": "s12",
+    "title": "Your turn: classify the task",
+    "kicker": "KNOWLEDGE CHECK \u00b7 PAUSE IF YOU NEED",
+    "narration": "Let's try three short examples. A: a system calculates tax using a rate and rules supplied by finance. B: a system learns from historical customer behavior to estimate the probability of churn. C: a system drafts a customer email using an approved offer and a tone instruction. Which is best described as ordinary rule-based automation, which as predictive machine learning, and which as generative AI? Think about the task's output rather than whether the interface looks modern. I'll give you a moment to decide.",
+    "kind": "cards",
+    "items": [
+      [
+        "A \u00b7 Calculate tax",
+        "Apply finance-approved rules"
+      ],
+      [
+        "B \u00b7 Estimate churn",
+        "Learn from customer history"
+      ],
+      [
+        "C \u00b7 Draft an email",
+        "Create content from an approved offer"
+      ]
+    ],
+    "note": "Pause and explain your reasoning before continuing.",
+    "hold": 9,
+    "start": 507.091333,
+    "duration": 42.962,
+    "audio": "assets/audio/s12.wav"
+  },
+  {
+    "id": "s13",
+    "title": "Answers\u2014and the reasoning",
+    "kicker": "KNOWLEDGE CHECK \u00b7 EXPLANATION",
+    "narration": "A is ordinary rule-based automation in this scenario: the calculation applies a specified policy. B is predictive machine learning: the system learns from historical data to estimate a probability. C is generative AI: it creates an email draft from instructions and context. That draft still needs checks for offer accuracy and appropriateness. B and C both use machine learning in the modern systems we've described, but they serve different business purposes. If you classified by output and explained the evidence each task needs, you've understood the central distinction. If you only memorized three labels, return to the examples and explain why each choice fits.",
+    "kind": "cards",
+    "items": [
+      [
+        "A \u00b7 Rule-based automation",
+        "Specified policy \u2192 calculation"
+      ],
+      [
+        "B \u00b7 Predictive ML",
+        "Learned patterns \u2192 probability"
+      ],
+      [
+        "C \u00b7 Generative AI",
+        "Prompt and context \u2192 draft content"
+      ]
+    ],
+    "note": "The reasoning matters more than the label.",
+    "hold": 2,
+    "start": 550.053333,
+    "duration": 45.412667,
+    "audio": "assets/audio/s13.wav"
+  },
+  {
+    "id": "s14",
+    "title": "Ask better questions about AI",
+    "kicker": "LESSON RECAP",
+    "narration": "Let's bring this together. AI is the broad field. Machine learning learns patterns from data. Modern generative AI uses learned patterns to create content. Ordinary deterministic automation remains useful when the business can specify a suitable rule. These descriptions help you ask what the system produces, what evidence would make it trustworthy for its purpose, and whether the capability is worth using. For your own workplace, choose one task and write down its required output, the simplest suitable approach, and how you'd evaluate success. In the next lesson, we'll build on this foundation by separating training from inference and examining what historical data can and cannot prove.",
+    "kind": "cards",
+    "items": [
+      [
+        "Required output",
+        "What does the business need?"
+      ],
+      [
+        "Suitable approach",
+        "Rules, learned estimates or generation?"
+      ],
+      [
+        "Evaluation",
+        "What would establish useful performance?"
+      ]
+    ],
+    "note": "Next: Training, inference and evidence",
+    "hold": 2,
+    "start": 595.466,
+    "duration": 45.918,
+    "audio": "assets/audio/s14.wav"
+  }
+]

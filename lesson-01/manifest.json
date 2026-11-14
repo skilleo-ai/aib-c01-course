@@ -1,0 +1,28 @@
+{
+  "lesson_id": "M01-L01",
+  "status": "review_rendered",
+  "expert_approved": false,
+  "skills": [
+    "1.1.1",
+    "1.1.2"
+  ],
+  "duration_seconds": 641.384,
+  "scene_count": 14,
+  "captions": {
+    "count": 115,
+    "method": "Synthesized phrase boundaries measured from actual PCM sample counts; display quantized to 30fps event grid"
+  },
+  "video": {
+    "release": "https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1",
+    "file": "lesson-01-review.mp4",
+    "sha256": "b0e258f39a5ad5a9a1fda00608400b3e843f3b9758dba04653f7889cf9b4516b",
+    "size_bytes": 22456493
+  },
+  "voice": "Kokoro af_heart, speed 0.94; local synthesis approved by user",
+  "visuals": "Original conceptual diagrams; no browser recording is required by these objectives",
+  "sources": "sources.json",
+  "review_needed": [
+    "User feedback on voice, pace, depth and visuals",
+    "Independent subject-matter approval"
+  ]
+}

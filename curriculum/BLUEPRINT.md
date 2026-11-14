@@ -20,7 +20,7 @@ Outcome: Classify prediction, generation and deterministic automation correctly.
 
 Case: A retailer compares forecasting with marketing copy generation. Visual: Nested concept diagram and decision cards.
 
-Exam skills: 1.1.1, 1.1.2. Status: planned.
+Exam skills: 1.1.1, 1.1.2. Status: review video rendered; expert review pending.
 
 **M01-L02 — Training, inference and evidence** (12 minutes target)
 
@@ -354,4 +354,4 @@ Exam skills: 4.4.5, 4.4.6. Status: planned.
 
 At least 117 lesson questions (3 per lesson), 4 domain reviews of 12 questions, and 2 independent 50-question original practice forms: 265 items planned in total. Practice forms allocate 12/14/12/12 items to domains 1–4. This is an instructional design choice, not a claim about the number of questions on the real exam. A separate item-review pass checks ambiguity, distractor plausibility, scenario sufficiency, skill mapping and answer leakage. Current pilot questions are drafts, not psychometrically validated items.
 
-A mapped skill is planned coverage, not proof of instruction. A skill is complete only when instruction, example, assessment and expert review are complete. All 39 lessons need expert review; only the pilot currently has a narration draft.
+A mapped skill is planned coverage, not proof of instruction. A skill is complete only when instruction, example, assessment and expert review are complete. All 39 lessons need expert review; the ROI pilot and lesson M01-L01 have narration drafts; M01-L01 also has a rendered review video.

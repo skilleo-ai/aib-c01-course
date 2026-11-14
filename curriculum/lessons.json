@@ -11,11 +11,13 @@
     "scenario": "A retailer compares forecasting with marketing copy generation",
     "visual": "Nested concept diagram and decision cards",
     "target_minutes": 12,
-    "status": "planned",
+    "status": "review_rendered",
     "assessment": {
       "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
-      "status": "planned"
-    }
+      "status": "drafted"
+    },
+    "actual_minutes": 10.69,
+    "artifacts": "lesson-01/manifest.json"
   },
   {
     "id": "M01-L02",

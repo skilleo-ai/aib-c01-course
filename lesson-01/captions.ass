@@ -1,0 +1,127 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Inter,32,&H00E8F0F5,&H00E8F0F5,&H002C1D10,&H002C1D10,0,0,0,0,100,100,0,0,3,2,0,2,100,100,22,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.75,0:00:03.46,Default,,0,0,0,,Imagine you're in a planning meeting at a retailer.
+Dialogue: 0,0:00:03.56,0:00:06.35,Default,,0,0,0,,One team wants to forecast next month's demand.
+Dialogue: 0,0:00:06.45,0:00:08.84,Default,,0,0,0,,Another wants to draft product descriptions.
+Dialogue: 0,0:00:08.94,0:00:13.94,Default,,0,0,0,,A third wants a ten percent discount applied to every order over one hundred dollars.
+Dialogue: 0,0:00:14.04,0:00:17.43,Default,,0,0,0,,Someone calls all three projects artificial intelligence.
+Dialogue: 0,0:00:17.53,0:00:20.26,Default,,0,0,0,,Should you treat them as the same kind of investment?
+Dialogue: 0,0:00:20.36,0:00:21.42,Default,,0,0,0,,Probably not.
+Dialogue: 0,0:00:21.52,0:00:26.15,Default,,0,0,0,,They produce different outputs, depend on different evidence, and need different checks.
+Dialogue: 0,0:00:26.25,0:00:35.66,Default,,0,0,0,,In this lesson, we'll separate artificial intelligence, machine learning, and generative AI, using decisions a business leader might actually face.
+Dialogue: 0,0:00:35.76,0:00:37.32,Default,,0,0,0,,You won't need to write code.
+Dialogue: 0,0:00:37.42,0:00:42.13,Default,,0,0,0,,Your job is to ask better questions about the work the system is meant to do.
+Dialogue: 0,0:00:44.98,0:00:54.35,Default,,0,0,0,,By the end, you should be able to explain how these terms fit together, classify a business use case, and choose what kind of evidence would demonstrate success.
+Dialogue: 0,0:00:54.45,0:00:57.95,Default,,0,0,0,,Start with one question: what output does the business need?
+Dialogue: 0,0:00:58.05,0:01:00.22,Default,,0,0,0,,Sometimes it's a fixed calculation.
+Dialogue: 0,0:01:00.32,0:01:04.02,Default,,0,0,0,,Sometimes it's a prediction, a category, or a recommendation.
+Dialogue: 0,0:01:04.11,0:01:08.64,Default,,0,0,0,,Sometimes it's a new piece of text, an image, or another form of content.
+Dialogue: 0,0:01:08.74,0:01:12.32,Default,,0,0,0,,That question is more useful than starting with a product name.
+Dialogue: 0,0:01:12.42,0:01:21.30,Default,,0,0,0,,A single business process can combine several of these capabilities, so we'll classify the individual tasks before we describe the whole solution.
+Dialogue: 0,0:01:24.15,0:01:34.86,Default,,0,0,0,,Artificial intelligence is the broad field of building systems that perform tasks associated with intelligence, such as recognizing patterns, understanding language,
+Dialogue: 0,0:01:34.96,0:01:37.28,Default,,0,0,0,,reasoning, or making recommendations.
+Dialogue: 0,0:01:37.38,0:01:41.95,Default,,0,0,0,,It doesn't mean a computer thinks or understands in the same way a person does.
+Dialogue: 0,0:01:42.05,0:01:45.33,Default,,0,0,0,,And AI isn't limited to systems that learn from data.
+Dialogue: 0,0:01:45.43,0:01:49.38,Default,,0,0,0,,Some approaches use explicitly represented knowledge and rules.
+Dialogue: 0,0:01:49.48,0:01:54.00,Default,,0,0,0,,That's why we should avoid saying that every rule-based system is outside AI.
+Dialogue: 0,0:01:54.10,0:02:01.65,Default,,0,0,0,,For the retailer's simple discount calculation, though, ordinary deterministic automation is a sufficient description.
+Dialogue: 0,0:02:01.75,0:02:05.57,Default,,0,0,0,,Calling a basic formula AI doesn't make it a better investment.
+Dialogue: 0,0:02:05.67,0:02:10.43,Default,,0,0,0,,Describe what the system actually does and what capability the task requires.
+Dialogue: 0,0:02:13.28,0:02:22.09,Default,,0,0,0,,Machine learning is a family of AI methods that learns patterns from data rather than requiring a person to specify every decision rule.
+Dialogue: 0,0:02:22.19,0:02:23.96,Default,,0,0,0,,Think about the demand forecast.
+Dialogue: 0,0:02:24.06,0:02:30.89,Default,,0,0,0,,Historical sales, promotions, prices, and seasonal patterns might help a model estimate future sales.
+Dialogue: 0,0:02:30.99,0:02:36.15,Default,,0,0,0,,Training is the process that uses data to learn the model's patterns or parameters.
+Dialogue: 0,0:02:36.25,0:02:40.77,Default,,0,0,0,,Inference is using the resulting model on an input to produce an output.
+Dialogue: 0,0:02:40.87,0:02:45.35,Default,,0,0,0,,The output might be a number, a category, a ranking, or a recommendation.
+Dialogue: 0,0:02:45.45,0:02:50.08,Default,,0,0,0,,Learning doesn't imply the model is correct, fair, or ready for production.
+Dialogue: 0,0:02:50.18,0:02:53.66,Default,,0,0,0,,Those claims need evaluation using relevant evidence.
+Dialogue: 0,0:02:53.76,0:02:57.45,Default,,0,0,0,,We'll examine training and inference more closely in the next lesson.
+Dialogue: 0,0:03:00.30,0:03:02.22,Default,,0,0,0,,Let's make the forecast concrete.
+Dialogue: 0,0:03:02.32,0:03:06.33,Default,,0,0,0,,The retailer asks: how many winter jackets should we stock next month?
+Dialogue: 0,0:03:06.43,0:03:11.55,Default,,0,0,0,,A machine learning model can estimate a quantity using patterns in relevant data.
+Dialogue: 0,0:03:11.65,0:03:15.49,Default,,0,0,0,,But a prediction is an estimate, not a guaranteed future outcome.
+Dialogue: 0,0:03:15.59,0:03:22.14,Default,,0,0,0,,If customer behavior changes or the data misses a major promotion, performance can deteriorate.
+Dialogue: 0,0:03:22.24,0:03:28.81,Default,,0,0,0,,To evaluate the proposal, compare forecasts with actual demand on suitable held-out or future data.
+Dialogue: 0,0:03:28.91,0:03:34.22,Default,,0,0,0,,Also compare with a sensible existing approach, such as the current forecasting process.
+Dialogue: 0,0:03:34.32,0:03:41.98,Default,,0,0,0,,Better model accuracy matters only if it supports a business outcome, such as fewer stockouts without excessive inventory.
+Dialogue: 0,0:03:42.08,0:03:46.07,Default,,0,0,0,,A convincing demonstration alone doesn't establish that value.
+Dialogue: 0,0:03:48.92,0:03:56.04,Default,,0,0,0,,Generative AI creates content, such as text, images, audio, or code, using patterns learned from data.
+Dialogue: 0,0:03:56.14,0:04:02.22,Default,,0,0,0,,Modern generative AI systems are built with machine learning, often using large neural networks.
+Dialogue: 0,0:04:02.32,0:04:09.30,Default,,0,0,0,,For business classification, distinguish generating content from estimating a target such as next month's sales.
+Dialogue: 0,0:04:09.40,0:04:16.14,Default,,0,0,0,,The technical boundary is more subtle: a language model itself predicts tokens as it generates text.
+Dialogue: 0,0:04:16.24,0:04:26.04,Default,,0,0,0,,So when we say prediction versus generation here, we're describing the business task and output, not claiming that the underlying mathematics never overlaps.
+Dialogue: 0,0:04:26.14,0:04:29.95,Default,,0,0,0,,A fluent response is also not proof of factual correctness.
+Dialogue: 0,0:04:30.05,0:04:35.60,Default,,0,0,0,,Generating plausible language and verifying a product claim are different responsibilities.
+Dialogue: 0,0:04:38.45,0:04:42.93,Default,,0,0,0,,Now the marketing team wants a product description for a new winter jacket.
+Dialogue: 0,0:04:43.03,0:04:49.09,Default,,0,0,0,,A generative AI system can draft copy from an approved product record and a style instruction.
+Dialogue: 0,0:04:49.19,0:04:52.84,Default,,0,0,0,,Success isn't measured in the same way as a demand forecast.
+Dialogue: 0,0:04:52.94,0:05:01.56,Default,,0,0,0,,Review whether the copy preserves product facts, follows the intended tone, avoids unsupported claims, and is useful to customers.
+Dialogue: 0,0:05:01.65,0:05:06.09,Default,,0,0,0,,If the jacket isn't waterproof, polished wording must not imply that it is.
+Dialogue: 0,0:05:06.19,0:05:11.18,Default,,0,0,0,,Human review or other appropriate checks should match the risk of publishing an error.
+Dialogue: 0,0:05:11.29,0:05:17.15,Default,,0,0,0,,You can also measure net drafting time, including the time spent reviewing and correcting the output.
+Dialogue: 0,0:05:17.25,0:05:22.01,Default,,0,0,0,,Fast generation doesn't automatically mean the complete workflow saves time.
+Dialogue: 0,0:05:24.86,0:05:26.82,Default,,0,0,0,,Here's the relationship to remember.
+Dialogue: 0,0:05:26.92,0:05:29.82,Default,,0,0,0,,Artificial intelligence is the broad umbrella.
+Dialogue: 0,0:05:29.92,0:05:32.55,Default,,0,0,0,,Machine learning is one important part of it.
+Dialogue: 0,0:05:32.65,0:05:38.28,Default,,0,0,0,,The modern generative AI systems we're discussing use machine learning to generate content.
+Dialogue: 0,0:05:38.38,0:05:44.33,Default,,0,0,0,,So the same product can accurately be described as AI, machine learning, and generative AI.
+Dialogue: 0,0:05:44.43,0:05:49.78,Default,,0,0,0,,These are not three competing vendors or three mutually exclusive purchasing categories.
+Dialogue: 0,0:05:49.88,0:06:00.06,Default,,0,0,0,,At the same time, many machine learning applications are not primarily generative: a fraud classifier or a demand forecaster has a different business purpose.
+Dialogue: 0,0:06:00.16,0:06:05.62,Default,,0,0,0,,Use the more specific description when it helps clarify the output, the evidence, and the risks.
+Dialogue: 0,0:06:05.72,0:06:10.74,Default,,0,0,0,,Avoid choosing a capability just because the broadest label sounds impressive.
+Dialogue: 0,0:06:13.59,0:06:14.97,Default,,0,0,0,,Return to the discount.
+Dialogue: 0,0:06:15.07,0:06:21.75,Default,,0,0,0,,The policy is unambiguous: if an eligible order exceeds one hundred dollars, apply ten percent off.
+Dialogue: 0,0:06:21.85,0:06:26.01,Default,,0,0,0,,A fixed rule is transparent and easy to test against known cases.
+Dialogue: 0,0:06:26.11,0:06:31.06,Default,,0,0,0,,You don't need a learned model to infer a policy the business has already specified.
+Dialogue: 0,0:06:31.16,0:06:35.38,Default,,0,0,0,,That doesn't mean rules are always simple or that AI can never use rules.
+Dialogue: 0,0:06:35.48,0:06:41.41,Default,,0,0,0,,It means this task has an explicit, stable relationship between input and expected output.
+Dialogue: 0,0:06:41.51,0:06:47.12,Default,,0,0,0,,If the business later wants to personalize offers based on response patterns, that's a different problem.
+Dialogue: 0,0:06:47.22,0:06:52.39,Default,,0,0,0,,Revisit the requirements rather than automatically replacing every rule with a model.
+Dialogue: 0,0:06:55.24,0:06:57.90,Default,,0,0,0,,Real products often combine capabilities.
+Dialogue: 0,0:06:58.00,0:07:07.58,Default,,0,0,0,,The retailer might use machine learning to forecast demand, an explicit business rule to flag low stock, and generative AI to draft a buyer's summary.
+Dialogue: 0,0:07:07.68,0:07:13.00,Default,,0,0,0,,Calling the whole workflow a generative AI solution can hide important dependencies.
+Dialogue: 0,0:07:13.10,0:07:20.20,Default,,0,0,0,,If a summary reads well but the forecast is unreliable, the process can still make a bad purchasing recommendation.
+Dialogue: 0,0:07:20.30,0:07:23.41,Default,,0,0,0,,Evaluate each component and the end-to-end outcome.
+Dialogue: 0,0:07:23.51,0:07:29.78,Default,,0,0,0,,Ask what data enters each stage, who can act on the output, and what happens when a component is wrong.
+Dialogue: 0,0:07:29.88,0:07:39.91,Default,,0,0,0,,This task-level view helps business leaders discuss the proposal clearly with technical teams without needing to choose algorithms or configure services.
+Dialogue: 0,0:07:42.76,0:07:45.47,Default,,0,0,0,,Here's a practical way to review a proposal.
+Dialogue: 0,0:07:45.57,0:07:48.02,Default,,0,0,0,,First, ask what output the task needs.
+Dialogue: 0,0:07:48.12,0:07:53.31,Default,,0,0,0,,Second, ask whether that output follows an explicit rule or depends on learned patterns.
+Dialogue: 0,0:07:53.41,0:07:57.91,Default,,0,0,0,,Third, ask how success will be evaluated in the actual business process.
+Dialogue: 0,0:07:58.01,0:08:01.98,Default,,0,0,0,,For the discount, test the calculation and policy boundary cases.
+Dialogue: 0,0:08:02.08,0:08:08.14,Default,,0,0,0,,For the forecast, evaluate error against an appropriate baseline and measure inventory effects.
+Dialogue: 0,0:08:08.24,0:08:14.64,Default,,0,0,0,,For product copy, evaluate factual accuracy and suitability, alongside the time needed to review it.
+Dialogue: 0,0:08:14.74,0:08:19.71,Default,,0,0,0,,None of these checks is replaced by an impressive demo or a confident vendor claim.
+Dialogue: 0,0:08:19.81,0:08:24.99,Default,,0,0,0,,The capability label helps organize the discussion; evidence supports the decision.
+Dialogue: 0,0:08:27.84,0:08:29.78,Default,,0,0,0,,Let's try three short examples.
+Dialogue: 0,0:08:29.88,0:08:34.88,Default,,0,0,0,,A: a system calculates tax using a rate and rules supplied by finance.
+Dialogue: 0,0:08:34.98,0:08:41.01,Default,,0,0,0,,B: a system learns from historical customer behavior to estimate the probability of churn.
+Dialogue: 0,0:08:41.11,0:08:46.74,Default,,0,0,0,,C: a system drafts a customer email using an approved offer and a tone instruction.
+Dialogue: 0,0:08:46.84,0:08:54.86,Default,,0,0,0,,Which is best described as ordinary rule-based automation, which as predictive machine learning, and which as generative AI?
+Dialogue: 0,0:08:54.96,0:08:59.12,Default,,0,0,0,,Think about the task's output rather than whether the interface looks modern.
+Dialogue: 0,0:08:59.22,0:09:00.95,Default,,0,0,0,,I'll give you a moment to decide.
+Dialogue: 0,0:09:10.80,0:09:17.25,Default,,0,0,0,,A is ordinary rule-based automation in this scenario: the calculation applies a specified policy.
+Dialogue: 0,0:09:17.35,0:09:24.09,Default,,0,0,0,,B is predictive machine learning: the system learns from historical data to estimate a probability.
+Dialogue: 0,0:09:24.19,0:09:29.48,Default,,0,0,0,,C is generative AI: it creates an email draft from instructions and context.
+Dialogue: 0,0:09:29.58,0:09:33.35,Default,,0,0,0,,That draft still needs checks for offer accuracy and appropriateness.
+Dialogue: 0,0:09:33.45,0:09:40.60,Default,,0,0,0,,B and C both use machine learning in the modern systems we've described, but they serve different business purposes.
+Dialogue: 0,0:09:40.70,0:09:47.53,Default,,0,0,0,,If you classified by output and explained the evidence each task needs, you've understood the central distinction.
+Dialogue: 0,0:09:47.63,0:09:53.37,Default,,0,0,0,,If you only memorized three labels, return to the examples and explain why each choice fits.
+Dialogue: 0,0:09:56.22,0:09:57.67,Default,,0,0,0,,Let's bring this together.
+Dialogue: 0,0:09:57.77,0:09:59.32,Default,,0,0,0,,AI is the broad field.
+Dialogue: 0,0:09:59.42,0:10:01.88,Default,,0,0,0,,Machine learning learns patterns from data.
+Dialogue: 0,0:10:01.98,0:10:06.03,Default,,0,0,0,,Modern generative AI uses learned patterns to create content.
+Dialogue: 0,0:10:06.13,0:10:12.51,Default,,0,0,0,,Ordinary deterministic automation remains useful when the business can specify a suitable rule.
+Dialogue: 0,0:10:12.61,0:10:21.68,Default,,0,0,0,,These descriptions help you ask what the system produces, what evidence would make it trustworthy for its purpose, and whether the capability is worth using.
+Dialogue: 0,0:10:21.78,0:10:30.20,Default,,0,0,0,,For your own workplace, choose one task and write down its required output, the simplest suitable approach, and how you'd evaluate success.
+Dialogue: 0,0:10:30.30,0:10:39.28,Default,,0,0,0,,In the next lesson, we'll build on this foundation by separating training from inference and examining what historical data can and cannot prove.

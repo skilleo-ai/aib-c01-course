@@ -39,7 +39,31 @@ def validate(root=ROOT):
         if not set(q['correct']).issubset(q['options']):errors.append(f'invalid answer {q["id"]}')
         if set(q['rationales']) != set(q['options']):errors.append(f'missing option explanation {q["id"]}')
         if not set(q['skills']).issubset(skill_ids):errors.append(f'unknown question skill {q["id"]}')
-    return errors,{'official_skills':len(skills),'planned_lessons':len(lessons),'mapped_skills':len(mapped&skill_ids),'scripted_lessons':sum(l['status']=='scripted' for l in lessons),'rendered_scenes':sum(s['status']=='rendered' for s in pilot['scenes'])}
+    lesson_dir=root/'lesson-01'
+    if lesson_dir.exists():
+        timed=load('lesson-01/timing.json');captions=load('lesson-01/captions.json')
+        manifest=load('lesson-01/manifest.json');briefs=load('lesson-01/scenes.json')
+        if len(timed)!=len(briefs) or len(timed)!=manifest['scene_count']:
+            errors.append('lesson 01 scene count differs from manifest')
+        for actual,brief in zip(timed,briefs):
+            if actual['id']!=brief['id'] or actual['narration']!=brief['narration']:
+                errors.append('lesson 01 timing was not rebuilt after script edits')
+            text=' '.join(c['text'] for c in captions if c['scene']==actual['id'])
+            if ' '.join(text.split())!=' '.join(actual['narration'].split()):
+                errors.append(f'caption text differs from narration: {actual["id"]}')
+            if actual['duration']<=0:errors.append('invalid lesson scene duration')
+        for a,b in zip(timed,timed[1:]):
+            if abs(a['start']+a['duration']-b['start'])>.001:
+                errors.append('lesson 01 scene timing gap or overlap')
+        for a,b in zip(captions,captions[1:]):
+            if a['end']>b['start']:errors.append('overlapping lesson 01 captions')
+        if any(c['end']<=c['start'] for c in captions):errors.append('empty lesson caption')
+        if captions[-1]['end']>manifest['duration_seconds']:errors.append('lesson captions exceed video')
+        for q in load('lesson-01/questions.json'):
+            if not set(q['correct']).issubset(q['options']):errors.append('invalid lesson 01 answer')
+            if set(q['rationales'])!=set(q['options']):errors.append('missing lesson 01 option rationale')
+            if not set(q['skills']).issubset(skill_ids):errors.append('unknown lesson 01 question skill')
+    return errors,{'official_skills':len(skills),'planned_lessons':len(lessons),'mapped_skills':len(mapped&skill_ids),'scripted_lessons':sum(l['status'] in ('scripted','review_rendered') for l in lessons),'rendered_review_lessons':sum(l['status']=='review_rendered' for l in lessons),'roi_pilot_rendered_scenes':sum(s['status']=='rendered' for s in pilot['scenes'])}
 
 if __name__=='__main__':
     errors,summary=validate()

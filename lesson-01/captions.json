@@ -1,0 +1,692 @@
+[
+  {
+    "start": 0.75,
+    "end": 3.459,
+    "text": "Imagine you're in a planning meeting at a retailer.",
+    "scene": "s01"
+  },
+  {
+    "start": 3.559,
+    "end": 6.354,
+    "text": "One team wants to forecast next month's demand.",
+    "scene": "s01"
+  },
+  {
+    "start": 6.454,
+    "end": 8.843,
+    "text": "Another wants to draft product descriptions.",
+    "scene": "s01"
+  },
+  {
+    "start": 8.943,
+    "end": 13.935,
+    "text": "A third wants a ten percent discount applied to every order over one hundred dollars.",
+    "scene": "s01"
+  },
+  {
+    "start": 14.035,
+    "end": 17.427,
+    "text": "Someone calls all three projects artificial intelligence.",
+    "scene": "s01"
+  },
+  {
+    "start": 17.527,
+    "end": 20.258,
+    "text": "Should you treat them as the same kind of investment?",
+    "scene": "s01"
+  },
+  {
+    "start": 20.358,
+    "end": 21.425,
+    "text": "Probably not.",
+    "scene": "s01"
+  },
+  {
+    "start": 21.525,
+    "end": 26.154,
+    "text": "They produce different outputs, depend on different evidence, and need different checks.",
+    "scene": "s01"
+  },
+  {
+    "start": 26.254,
+    "end": 35.662,
+    "text": "In this lesson, we'll separate artificial intelligence, machine learning, and generative AI, using decisions a business leader might actually face.",
+    "scene": "s01"
+  },
+  {
+    "start": 35.762,
+    "end": 37.319,
+    "text": "You won't need to write code.",
+    "scene": "s01"
+  },
+  {
+    "start": 37.419,
+    "end": 42.134,
+    "text": "Your job is to ask better questions about the work the system is meant to do.",
+    "scene": "s01"
+  },
+  {
+    "start": 44.984,
+    "end": 54.349,
+    "text": "By the end, you should be able to explain how these terms fit together, classify a business use case, and choose what kind of evidence would demonstrate success.",
+    "scene": "s02"
+  },
+  {
+    "start": 54.449,
+    "end": 57.948,
+    "text": "Start with one question: what output does the business need?",
+    "scene": "s02"
+  },
+  {
+    "start": 58.048,
+    "end": 60.224,
+    "text": "Sometimes it's a fixed calculation.",
+    "scene": "s02"
+  },
+  {
+    "start": 60.324,
+    "end": 64.015,
+    "text": "Sometimes it's a prediction, a category, or a recommendation.",
+    "scene": "s02"
+  },
+  {
+    "start": 64.115,
+    "end": 68.637,
+    "text": "Sometimes it's a new piece of text, an image, or another form of content.",
+    "scene": "s02"
+  },
+  {
+    "start": 68.737,
+    "end": 72.321,
+    "text": "That question is more useful than starting with a product name.",
+    "scene": "s02"
+  },
+  {
+    "start": 72.421,
+    "end": 81.296,
+    "text": "A single business process can combine several of these capabilities, so we'll classify the individual tasks before we describe the whole solution.",
+    "scene": "s02"
+  },
+  {
+    "start": 84.146,
+    "end": 94.855,
+    "text": "Artificial intelligence is the broad field of building systems that perform tasks associated with intelligence, such as recognizing patterns, understanding language,",
+    "scene": "s03"
+  },
+  {
+    "start": 94.955,
+    "end": 97.281,
+    "text": "reasoning, or making recommendations.",
+    "scene": "s03"
+  },
+  {
+    "start": 97.381,
+    "end": 101.946,
+    "text": "It doesn't mean a computer thinks or understands in the same way a person does.",
+    "scene": "s03"
+  },
+  {
+    "start": 102.046,
+    "end": 105.331,
+    "text": "And AI isn't limited to systems that learn from data.",
+    "scene": "s03"
+  },
+  {
+    "start": 105.431,
+    "end": 109.378,
+    "text": "Some approaches use explicitly represented knowledge and rules.",
+    "scene": "s03"
+  },
+  {
+    "start": 109.478,
+    "end": 114.001,
+    "text": "That's why we should avoid saying that every rule-based system is outside AI.",
+    "scene": "s03"
+  },
+  {
+    "start": 114.101,
+    "end": 121.653,
+    "text": "For the retailer's simple discount calculation, though, ordinary deterministic automation is a sufficient description.",
+    "scene": "s03"
+  },
+  {
+    "start": 121.753,
+    "end": 125.571,
+    "text": "Calling a basic formula AI doesn't make it a better investment.",
+    "scene": "s03"
+  },
+  {
+    "start": 125.671,
+    "end": 130.429,
+    "text": "Describe what the system actually does and what capability the task requires.",
+    "scene": "s03"
+  },
+  {
+    "start": 133.279,
+    "end": 142.089,
+    "text": "Machine learning is a family of AI methods that learns patterns from data rather than requiring a person to specify every decision rule.",
+    "scene": "s04"
+  },
+  {
+    "start": 142.189,
+    "end": 143.96,
+    "text": "Think about the demand forecast.",
+    "scene": "s04"
+  },
+  {
+    "start": 144.06,
+    "end": 150.887,
+    "text": "Historical sales, promotions, prices, and seasonal patterns might help a model estimate future sales.",
+    "scene": "s04"
+  },
+  {
+    "start": 150.987,
+    "end": 156.149,
+    "text": "Training is the process that uses data to learn the model's patterns or parameters.",
+    "scene": "s04"
+  },
+  {
+    "start": 156.249,
+    "end": 160.772,
+    "text": "Inference is using the resulting model on an input to produce an output.",
+    "scene": "s04"
+  },
+  {
+    "start": 160.872,
+    "end": 165.352,
+    "text": "The output might be a number, a category, a ranking, or a recommendation.",
+    "scene": "s04"
+  },
+  {
+    "start": 165.452,
+    "end": 170.081,
+    "text": "Learning doesn't imply the model is correct, fair, or ready for production.",
+    "scene": "s04"
+  },
+  {
+    "start": 170.181,
+    "end": 173.659,
+    "text": "Those claims need evaluation using relevant evidence.",
+    "scene": "s04"
+  },
+  {
+    "start": 173.759,
+    "end": 177.449,
+    "text": "We'll examine training and inference more closely in the next lesson.",
+    "scene": "s04"
+  },
+  {
+    "start": 180.299,
+    "end": 182.219,
+    "text": "Let's make the forecast concrete.",
+    "scene": "s05"
+  },
+  {
+    "start": 182.319,
+    "end": 186.33,
+    "text": "The retailer asks: how many winter jackets should we stock next month?",
+    "scene": "s05"
+  },
+  {
+    "start": 186.43,
+    "end": 191.55,
+    "text": "A machine learning model can estimate a quantity using patterns in relevant data.",
+    "scene": "s05"
+  },
+  {
+    "start": 191.65,
+    "end": 195.49,
+    "text": "But a prediction is an estimate, not a guaranteed future outcome.",
+    "scene": "s05"
+  },
+  {
+    "start": 195.59,
+    "end": 202.139,
+    "text": "If customer behavior changes or the data misses a major promotion, performance can deteriorate.",
+    "scene": "s05"
+  },
+  {
+    "start": 202.239,
+    "end": 208.81,
+    "text": "To evaluate the proposal, compare forecasts with actual demand on suitable held-out or future data.",
+    "scene": "s05"
+  },
+  {
+    "start": 208.91,
+    "end": 214.222,
+    "text": "Also compare with a sensible existing approach, such as the current forecasting process.",
+    "scene": "s05"
+  },
+  {
+    "start": 214.322,
+    "end": 221.981,
+    "text": "Better model accuracy matters only if it supports a business outcome, such as fewer stockouts without excessive inventory.",
+    "scene": "s05"
+  },
+  {
+    "start": 222.081,
+    "end": 226.07,
+    "text": "A convincing demonstration alone doesn't establish that value.",
+    "scene": "s05"
+  },
+  {
+    "start": 228.92,
+    "end": 236.045,
+    "text": "Generative AI creates content, such as text, images, audio, or code, using patterns learned from data.",
+    "scene": "s06"
+  },
+  {
+    "start": 236.145,
+    "end": 242.225,
+    "text": "Modern generative AI systems are built with machine learning, often using large neural networks.",
+    "scene": "s06"
+  },
+  {
+    "start": 242.325,
+    "end": 249.301,
+    "text": "For business classification, distinguish generating content from estimating a target such as next month's sales.",
+    "scene": "s06"
+  },
+  {
+    "start": 249.401,
+    "end": 256.143,
+    "text": "The technical boundary is more subtle: a language model itself predicts tokens as it generates text.",
+    "scene": "s06"
+  },
+  {
+    "start": 256.243,
+    "end": 266.035,
+    "text": "So when we say prediction versus generation here, we're describing the business task and output, not claiming that the underlying mathematics never overlaps.",
+    "scene": "s06"
+  },
+  {
+    "start": 266.135,
+    "end": 269.953,
+    "text": "A fluent response is also not proof of factual correctness.",
+    "scene": "s06"
+  },
+  {
+    "start": 270.053,
+    "end": 275.6,
+    "text": "Generating plausible language and verifying a product claim are different responsibilities.",
+    "scene": "s06"
+  },
+  {
+    "start": 278.45,
+    "end": 282.93,
+    "text": "Now the marketing team wants a product description for a new winter jacket.",
+    "scene": "s07"
+  },
+  {
+    "start": 283.03,
+    "end": 289.089,
+    "text": "A generative AI system can draft copy from an approved product record and a style instruction.",
+    "scene": "s07"
+  },
+  {
+    "start": 289.189,
+    "end": 292.837,
+    "text": "Success isn't measured in the same way as a demand forecast.",
+    "scene": "s07"
+  },
+  {
+    "start": 292.937,
+    "end": 301.555,
+    "text": "Review whether the copy preserves product facts, follows the intended tone, avoids unsupported claims, and is useful to customers.",
+    "scene": "s07"
+  },
+  {
+    "start": 301.655,
+    "end": 306.093,
+    "text": "If the jacket isn't waterproof, polished wording must not imply that it is.",
+    "scene": "s07"
+  },
+  {
+    "start": 306.193,
+    "end": 311.185,
+    "text": "Human review or other appropriate checks should match the risk of publishing an error.",
+    "scene": "s07"
+  },
+  {
+    "start": 311.285,
+    "end": 317.151,
+    "text": "You can also measure net drafting time, including the time spent reviewing and correcting the output.",
+    "scene": "s07"
+  },
+  {
+    "start": 317.251,
+    "end": 322.009,
+    "text": "Fast generation doesn't automatically mean the complete workflow saves time.",
+    "scene": "s07"
+  },
+  {
+    "start": 324.859,
+    "end": 326.821,
+    "text": "Here's the relationship to remember.",
+    "scene": "s08"
+  },
+  {
+    "start": 326.921,
+    "end": 329.823,
+    "text": "Artificial intelligence is the broad umbrella.",
+    "scene": "s08"
+  },
+  {
+    "start": 329.923,
+    "end": 332.547,
+    "text": "Machine learning is one important part of it.",
+    "scene": "s08"
+  },
+  {
+    "start": 332.647,
+    "end": 338.279,
+    "text": "The modern generative AI systems we're discussing use machine learning to generate content.",
+    "scene": "s08"
+  },
+  {
+    "start": 338.379,
+    "end": 344.331,
+    "text": "So the same product can accurately be described as AI, machine learning, and generative AI.",
+    "scene": "s08"
+  },
+  {
+    "start": 344.431,
+    "end": 349.785,
+    "text": "These are not three competing vendors or three mutually exclusive purchasing categories.",
+    "scene": "s08"
+  },
+  {
+    "start": 349.885,
+    "end": 360.061,
+    "text": "At the same time, many machine learning applications are not primarily generative: a fraud classifier or a demand forecaster has a different business purpose.",
+    "scene": "s08"
+  },
+  {
+    "start": 360.161,
+    "end": 365.623,
+    "text": "Use the more specific description when it helps clarify the output, the evidence, and the risks.",
+    "scene": "s08"
+  },
+  {
+    "start": 365.723,
+    "end": 370.736,
+    "text": "Avoid choosing a capability just because the broadest label sounds impressive.",
+    "scene": "s08"
+  },
+  {
+    "start": 373.586,
+    "end": 374.973,
+    "text": "Return to the discount.",
+    "scene": "s09"
+  },
+  {
+    "start": 375.073,
+    "end": 381.75,
+    "text": "The policy is unambiguous: if an eligible order exceeds one hundred dollars, apply ten percent off.",
+    "scene": "s09"
+  },
+  {
+    "start": 381.85,
+    "end": 386.01,
+    "text": "A fixed rule is transparent and easy to test against known cases.",
+    "scene": "s09"
+  },
+  {
+    "start": 386.11,
+    "end": 391.059,
+    "text": "You don't need a learned model to infer a policy the business has already specified.",
+    "scene": "s09"
+  },
+  {
+    "start": 391.159,
+    "end": 395.383,
+    "text": "That doesn't mean rules are always simple or that AI can never use rules.",
+    "scene": "s09"
+  },
+  {
+    "start": 395.483,
+    "end": 401.414,
+    "text": "It means this task has an explicit, stable relationship between input and expected output.",
+    "scene": "s09"
+  },
+  {
+    "start": 401.514,
+    "end": 407.125,
+    "text": "If the business later wants to personalize offers based on response patterns, that's a different problem.",
+    "scene": "s09"
+  },
+  {
+    "start": 407.225,
+    "end": 412.387,
+    "text": "Revisit the requirements rather than automatically replacing every rule with a model.",
+    "scene": "s09"
+  },
+  {
+    "start": 415.237,
+    "end": 417.904,
+    "text": "Real products often combine capabilities.",
+    "scene": "s10"
+  },
+  {
+    "start": 418.004,
+    "end": 427.583,
+    "text": "The retailer might use machine learning to forecast demand, an explicit business rule to flag low stock, and generative AI to draft a buyer's summary.",
+    "scene": "s10"
+  },
+  {
+    "start": 427.683,
+    "end": 432.995,
+    "text": "Calling the whole workflow a generative AI solution can hide important dependencies.",
+    "scene": "s10"
+  },
+  {
+    "start": 433.095,
+    "end": 440.199,
+    "text": "If a summary reads well but the forecast is unreliable, the process can still make a bad purchasing recommendation.",
+    "scene": "s10"
+  },
+  {
+    "start": 440.299,
+    "end": 443.413,
+    "text": "Evaluate each component and the end-to-end outcome.",
+    "scene": "s10"
+  },
+  {
+    "start": 443.513,
+    "end": 449.785,
+    "text": "Ask what data enters each stage, who can act on the output, and what happens when a component is wrong.",
+    "scene": "s10"
+  },
+  {
+    "start": 449.885,
+    "end": 459.912,
+    "text": "This task-level view helps business leaders discuss the proposal clearly with technical teams without needing to choose algorithms or configure services.",
+    "scene": "s10"
+  },
+  {
+    "start": 462.762,
+    "end": 465.471,
+    "text": "Here's a practical way to review a proposal.",
+    "scene": "s11"
+  },
+  {
+    "start": 465.571,
+    "end": 468.025,
+    "text": "First, ask what output the task needs.",
+    "scene": "s11"
+  },
+  {
+    "start": 468.125,
+    "end": 473.309,
+    "text": "Second, ask whether that output follows an explicit rule or depends on learned patterns.",
+    "scene": "s11"
+  },
+  {
+    "start": 473.409,
+    "end": 477.91,
+    "text": "Third, ask how success will be evaluated in the actual business process.",
+    "scene": "s11"
+  },
+  {
+    "start": 478.01,
+    "end": 481.978,
+    "text": "For the discount, test the calculation and policy boundary cases.",
+    "scene": "s11"
+  },
+  {
+    "start": 482.078,
+    "end": 488.137,
+    "text": "For the forecast, evaluate error against an appropriate baseline and measure inventory effects.",
+    "scene": "s11"
+  },
+  {
+    "start": 488.237,
+    "end": 494.637,
+    "text": "For product copy, evaluate factual accuracy and suitability, alongside the time needed to review it.",
+    "scene": "s11"
+  },
+  {
+    "start": 494.737,
+    "end": 499.707,
+    "text": "None of these checks is replaced by an impressive demo or a confident vendor claim.",
+    "scene": "s11"
+  },
+  {
+    "start": 499.807,
+    "end": 504.991,
+    "text": "The capability label helps organize the discussion; evidence supports the decision.",
+    "scene": "s11"
+  },
+  {
+    "start": 507.841,
+    "end": 509.783,
+    "text": "Let's try three short examples.",
+    "scene": "s12"
+  },
+  {
+    "start": 509.883,
+    "end": 514.875,
+    "text": "A: a system calculates tax using a rate and rules supplied by finance.",
+    "scene": "s12"
+  },
+  {
+    "start": 514.975,
+    "end": 521.012,
+    "text": "B: a system learns from historical customer behavior to estimate the probability of churn.",
+    "scene": "s12"
+  },
+  {
+    "start": 521.112,
+    "end": 526.744,
+    "text": "C: a system drafts a customer email using an approved offer and a tone instruction.",
+    "scene": "s12"
+  },
+  {
+    "start": 526.844,
+    "end": 534.865,
+    "text": "Which is best described as ordinary rule-based automation, which as predictive machine learning, and which as generative AI?",
+    "scene": "s12"
+  },
+  {
+    "start": 534.965,
+    "end": 539.125,
+    "text": "Think about the task's output rather than whether the interface looks modern.",
+    "scene": "s12"
+  },
+  {
+    "start": 539.225,
+    "end": 540.953,
+    "text": "I'll give you a moment to decide.",
+    "scene": "s12"
+  },
+  {
+    "start": 550.803,
+    "end": 557.246,
+    "text": "A is ordinary rule-based automation in this scenario: the calculation applies a specified policy.",
+    "scene": "s13"
+  },
+  {
+    "start": 557.346,
+    "end": 564.087,
+    "text": "B is predictive machine learning: the system learns from historical data to estimate a probability.",
+    "scene": "s13"
+  },
+  {
+    "start": 564.187,
+    "end": 569.478,
+    "text": "C is generative AI: it creates an email draft from instructions and context.",
+    "scene": "s13"
+  },
+  {
+    "start": 569.578,
+    "end": 573.354,
+    "text": "That draft still needs checks for offer accuracy and appropriateness.",
+    "scene": "s13"
+  },
+  {
+    "start": 573.454,
+    "end": 580.601,
+    "text": "B and C both use machine learning in the modern systems we've described, but they serve different business purposes.",
+    "scene": "s13"
+  },
+  {
+    "start": 580.701,
+    "end": 587.527,
+    "text": "If you classified by output and explained the evidence each task needs, you've understood the central distinction.",
+    "scene": "s13"
+  },
+  {
+    "start": 587.627,
+    "end": 593.366,
+    "text": "If you only memorized three labels, return to the examples and explain why each choice fits.",
+    "scene": "s13"
+  },
+  {
+    "start": 596.216,
+    "end": 597.667,
+    "text": "Let's bring this together.",
+    "scene": "s14"
+  },
+  {
+    "start": 597.767,
+    "end": 599.324,
+    "text": "AI is the broad field.",
+    "scene": "s14"
+  },
+  {
+    "start": 599.424,
+    "end": 601.877,
+    "text": "Machine learning learns patterns from data.",
+    "scene": "s14"
+  },
+  {
+    "start": 601.977,
+    "end": 606.031,
+    "text": "Modern generative AI uses learned patterns to create content.",
+    "scene": "s14"
+  },
+  {
+    "start": 606.131,
+    "end": 612.509,
+    "text": "Ordinary deterministic automation remains useful when the business can specify a suitable rule.",
+    "scene": "s14"
+  },
+  {
+    "start": 612.609,
+    "end": 621.676,
+    "text": "These descriptions help you ask what the system produces, what evidence would make it trustworthy for its purpose, and whether the capability is worth using.",
+    "scene": "s14"
+  },
+  {
+    "start": 621.776,
+    "end": 630.203,
+    "text": "For your own workplace, choose one task and write down its required output, the simplest suitable approach, and how you'd evaluate success.",
+    "scene": "s14"
+  },
+  {
+    "start": 630.303,
+    "end": 639.284,
+    "text": "In the next lesson, we'll build on this foundation by separating training from inference and examining what historical data can and cannot prove.",
+    "scene": "s14"
+  }
+]

@@ -1,6 +1,10 @@
 # AWS Certified AI Business Strategist (AIB-C01) — course production
 
-A depth-focused, independent course and reproducible production foundation for Skilleo. Initial milestone: curriculum design and one scripted pilot, not a finished video course.
+A depth-focused, independent course and reproducible production foundation for Skilleo. Curriculum design, a scripted ROI pilot and the first rendered lesson are available; the full course remains in production.
+
+## First lesson video
+
+[Watch or download lesson 01: AI, ML and generative AI](https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1) — 10 minutes 41 seconds, dark theme, local narration and burned-in captions. [Lesson source and teaching materials](lesson-01/README.md). This is a review build, pending user feedback and independent subject-matter approval.
 
 ## Start here
 
@@ -20,12 +24,12 @@ A depth-focused, independent course and reproducible production foundation for S
 |---|---|
 | Primary exam-skill inventory | Retrieved from the four official domain pages |
 | Skill-to-lesson coverage | 58/58 mapped; planned coverage |
-| Domain lesson briefs | 39 planned; 1 with complete narration draft |
+| Domain lesson briefs | 39 mapped; 2 narration drafts, including 1 rendered review lesson |
 | Pilot economics, storyboard and questions | Drafted and internally checked |
 | Wait compression and timestamp remapping | Implemented and unit tested |
 | Browser recording adapter | Not implemented |
-| FFmpeg assembly and narration adapters | Not implemented |
-| Rendered course videos | None |
+| FFmpeg assembly and local narration | Working for lesson 01; reusable Studio adapters pending |
+| Rendered course videos | Lesson 01 review build; approval pending |
 | Expert approval / Studio integration | Pending / not performed |
 
 The uploaded PLAN.md and Highlight.md were treated as design references. Their proposed tools and interfaces are not assumed installed or integrated. GitHub does not contain the uploaded documents; the implementation decisions are documented here.
@@ -44,9 +48,9 @@ Coverage validation checks known skill IDs, domain consistency, reference integr
 
 ## Production order
 
-1. Review the pilot's teaching content, numerical assumptions and assessment explanations.
+1. Review lesson 01 for voice, pace, depth and visual clarity; revise before scaling.
 2. Implement a supported capture adapter and produce one verified public-page scene.
-3. Audition a licensed voice, render original visuals, measure speech and align captions.
+3. Refine the local voice, visual pacing and caption format based on lesson 01 feedback.
 4. Assemble and review the pilot, then apply the reviewed format module by module.
 5. Inspect the actual Skilleo repository before implementing integration.
 
