@@ -1,6 +1,6 @@
 # Lesson 01 — AI, ML and generative AI
 
-[Watch or download the captioned review video](https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1).
+[Download the captioned review video](https://github.com/skilleo-ai/aib-c01-course/raw/refs/heads/main/lesson-01/review/lesson-01-review.mp4). [Review release and chapters](https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1).
 
 10 minutes 41 seconds. Warm, conversational local narration on a dark navy canvas with teal and amber diagrams, synthetic retail examples, an in-video classification exercise and explained answers. Primary exam skills: 1.1.1 and 1.1.2. Reinforces explicit-rule selection from 1.2.1. No coding or AWS account required.
 
@@ -43,7 +43,7 @@ The editable HyperFrames source is `index.html`. All diagrams are original. The 
 4. Render the entire editable composition with `npm run render -- --fps 30 --output renders/lesson-01-full.mp4`. Use the caption sidecar or add `captions.ass` through FFmpeg for burned-in captions.
 5. The efficient review path in `export_review.py` expects inspected hero frames under `renders/hero-frames/` and a 3-second opening render at `renders/intro-test.mp4`. Capture one hero at each measured scene start + 3 seconds with `hyperframes snapshot`, then run the exporter. It inserts visual events at every caption boundary to maintain caption synchronization even during long holds.
 
-Generated audio, inspection screenshots and MP4 files are excluded from git; the release contains the review video and learner-facing downloads. Source files and actual timing are versioned. Re-generating the voice may change timing; rebuild the composition and capture frames after synthesis.
+Generated audio, inspection screenshots and intermediate MP4 files are excluded from git. One explicit exception is the delivered review video under `review/`, because the GitHub release-upload endpoint rejected authentication. The release links to that video and the versioned learner materials. Source files and actual timing are versioned. Re-generating the voice may change timing; rebuild the composition and capture frames after synthesis.
 
 ## Third-party components
 

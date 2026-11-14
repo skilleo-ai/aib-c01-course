@@ -16,7 +16,9 @@
     "release": "https://github.com/skilleo-ai/aib-c01-course/releases/tag/lesson-01-review-v1",
     "file": "lesson-01-review.mp4",
     "sha256": "b0e258f39a5ad5a9a1fda00608400b3e843f3b9758dba04653f7889cf9b4516b",
-    "size_bytes": 22456493
+    "size_bytes": 22456493,
+    "download_url": "https://github.com/skilleo-ai/aib-c01-course/raw/refs/heads/main/lesson-01/review/lesson-01-review.mp4",
+    "repository_path": "lesson-01/review/lesson-01-review.mp4"
   },
   "voice": "Kokoro af_heart, speed 0.94; local synthesis approved by user",
   "visuals": "Original conceptual diagrams; no browser recording is required by these objectives",

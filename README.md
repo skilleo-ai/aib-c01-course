@@ -54,7 +54,7 @@ Coverage validation checks known skill IDs, domain consistency, reference integr
 4. Assemble and review the pilot, then apply the reviewed format module by module.
 5. Inspect the actual Skilleo repository before implementing integration.
 
-No AWS account, paid model, cloud resource or deployment is required for the current checks. Large media artifacts and secrets are excluded from git. Connect a media artifact store when rendering begins.
+No AWS account, paid model, cloud resource or deployment is required for the current checks. Generated audio, intermediate media and secrets are excluded from git. The first review video is explicitly included under lesson-01/review because release-asset uploads rejected authentication. Use a media artifact store as production scales.
 
 ## Source and rights policy
 
