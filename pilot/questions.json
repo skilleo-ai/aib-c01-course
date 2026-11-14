@@ -1,0 +1,143 @@
+[
+  {
+    "id": "P01",
+    "stem": "Using the base-case worksheet, what is the first-year ROI?",
+    "options": {
+      "A": "28.6%",
+      "B": "40%",
+      "C": "140%",
+      "D": "75%"
+    },
+    "correct": [
+      "B"
+    ],
+    "rationales": {
+      "A": "28.6% divides net benefit by benefit rather than total cost.",
+      "B": "Annual benefit is $75,600 and total cost is $54,000; $21,600 / $54,000 = 40%.",
+      "C": "140% is benefit divided by cost, without subtracting cost from the numerator.",
+      "D": "75% is not supported by the stated benefits and full first-year costs."
+    },
+    "skills": [
+      "2.2.3"
+    ],
+    "status": "draft_original_requires_expert_review"
+  },
+  {
+    "id": "P02",
+    "stem": "Agents release 300 hours per month, but management has no plan to redeploy time or avoid costs. What should the business case report?",
+    "options": {
+      "A": "$9,000 of guaranteed monthly cash savings",
+      "B": "A measured capacity improvement, with financial realization still unproven",
+      "C": "Both $9,000 labor savings and additional revenue from those same hours without further evidence",
+      "D": "No operational benefit of any kind"
+    },
+    "correct": [
+      "B"
+    ],
+    "rationales": {
+      "A": "Hours valued at a labor rate do not establish an actual cash saving.",
+      "B": "This distinguishes observed time improvement from the additional evidence needed for financial value.",
+      "C": "This risks double counting; distinct incremental benefits require evidence.",
+      "D": "Released capacity can be an operational benefit even before financial realization is established."
+    },
+    "skills": [
+      "2.2.3"
+    ],
+    "status": "draft_original_requires_expert_review"
+  },
+  {
+    "id": "P03",
+    "stem": "Assisted-ticket coverage falls to 25%, with other worksheet assumptions unchanged. Which conclusion is supported?",
+    "options": {
+      "A": "Year-one ROI remains 40% because software cost is unchanged",
+      "B": "Year-one ROI becomes \u221230%; investigate adoption and realized value before scaling",
+      "C": "The model proves that all support assistants are uneconomic",
+      "D": "Immediately double the labor rate used in the business case"
+    },
+    "correct": [
+      "B"
+    ],
+    "rationales": {
+      "A": "Benefits decline with assistance coverage even though this model holds cost fixed.",
+      "B": "Annual benefit becomes $37,800, net benefit \u2212$16,200 and ROI \u221230%. This is a conditional scenario.",
+      "C": "One set of assumptions about one workflow does not support a general claim.",
+      "D": "Changing a rate to improve the conclusion is unjustified without new evidence."
+    },
+    "skills": [
+      "2.2.3",
+      "2.1.3"
+    ],
+    "status": "draft_original_requires_expert_review"
+  },
+  {
+    "id": "P04",
+    "stem": "A positive-ROI pilot reduces first-response time but substantially increases repeat contacts. What is the strongest next action?",
+    "options": {
+      "A": "Scale because the reported ROI is positive",
+      "B": "Remove repeat contacts from the quality dashboard",
+      "C": "Investigate total resolution effort and quality before a scale decision",
+      "D": "Replace all customer satisfaction measures with model usage counts"
+    },
+    "correct": [
+      "C"
+    ],
+    "rationales": {
+      "A": "The ROI may omit downstream rework and the quality constraint has not been met.",
+      "B": "Removing adverse evidence undermines the decision.",
+      "C": "Repeated contacts can offset time savings and harm customers; evaluate full workflow outcomes before proceeding.",
+      "D": "Usage is an adoption signal, not sufficient evidence of customer value or quality."
+    },
+    "skills": [
+      "2.1.3",
+      "2.2.1"
+    ],
+    "status": "draft_original_requires_expert_review"
+  },
+  {
+    "id": "P05",
+    "stem": "Choose TWO recurring costs to include when evaluating this assistant beyond the upfront implementation fee.",
+    "options": {
+      "A": "Usage-based model or software charges",
+      "B": "Ongoing evaluation and monitoring effort",
+      "C": "The entire baseline support payroll plus the same saved hours again as a new cost",
+      "D": "Only costs that make the preferred option appear cheaper"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "rationales": {
+      "A": "Model or software usage is part of operating the solution.",
+      "B": "Monitoring and evaluation consume resources needed to sustain acceptable outcomes.",
+      "C": "Use a consistent incremental model; avoid adding an unchanged baseline as a new project cost or double counting saved time.",
+      "D": "Cost selection must be complete and evidence-based, independent of the preferred conclusion."
+    },
+    "skills": [
+      "2.2.5"
+    ],
+    "status": "draft_original_requires_expert_review"
+  },
+  {
+    "id": "P06",
+    "stem": "At base coverage, realization falls from 70% to 40%. What does the worksheet imply?",
+    "options": {
+      "A": "ROI is \u221220%, so realization is a decision-critical assumption",
+      "B": "ROI is unchanged because agents still release 300 hours",
+      "C": "The assistant becomes technically inaccurate",
+      "D": "Payback is guaranteed within 5.45 calendar months of signing"
+    },
+    "correct": [
+      "A"
+    ],
+    "rationales": {
+      "A": "Recognized annual benefit is $43,200 against $54,000 cost, giving \u221220% ROI.",
+      "B": "Released hours remain constant, but recognized value declines.",
+      "C": "Financial realization alone does not establish output accuracy.",
+      "D": "The original payback assumed different realization and excluded implementation delay and ramp."
+    },
+    "skills": [
+      "2.2.3"
+    ],
+    "status": "draft_original_requires_expert_review"
+  }
+]

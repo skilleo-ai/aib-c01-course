@@ -1,0 +1,83 @@
+[
+  {
+    "id": "aws-domain-1",
+    "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain1.html",
+    "retrieved_at": "2026-11-14T01:55:14.948368+00:00",
+    "sha256": "251689126df8ea8c2135e83d28a1bf5e59d0c39016eb98dff7b44bc1537d1861",
+    "role": "Exam scope authority",
+    "reuse": "Reference for original teaching; no blanket redistribution license inferred",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-domain-2",
+    "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain2.html",
+    "retrieved_at": "2026-11-14T01:55:15.220766+00:00",
+    "sha256": "ee589077054ec45cf4ecafbfc11b9a250442e37b559d6c5d2fd033a380d6ccd6",
+    "role": "Exam scope authority",
+    "reuse": "Reference for original teaching; no blanket redistribution license inferred",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-domain-3",
+    "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain3.html",
+    "retrieved_at": "2026-11-14T01:55:15.629418+00:00",
+    "sha256": "5b457ec4ae1be84fc2d8af0c02411d8d4d6448af33bfb6d554cb89da4c95d607",
+    "role": "Exam scope authority",
+    "reuse": "Reference for original teaching; no blanket redistribution license inferred",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-domain-4",
+    "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain4.html",
+    "retrieved_at": "2026-11-14T01:55:15.951424+00:00",
+    "sha256": "2e508f689afec0dd8c5befab2bd497a41b677a5a57c33b931f13c0e9f2275b0a",
+    "role": "Exam scope authority",
+    "reuse": "Reference for original teaching; no blanket redistribution license inferred",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-guide",
+    "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01.html",
+    "retrieved_at": "2026-11-14T01:55:16.291478+00:00",
+    "sha256": "182388ace8b05836dfe27af34b0d9428cf49e2ca9d19e596cb9749c8562fcd50",
+    "role": "Audience, scope, weights",
+    "reuse": "Reference only; visual reuse requires review",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-bedrock",
+    "url": "https://aws.amazon.com/bedrock/",
+    "retrieved_at": "2026-11-14T01:55:16.530260+00:00",
+    "sha256": "52cbd0a68f2ab221348d46dac9f5d553369c1808bdf9df3a190bdb7d50cbb5e0",
+    "role": "Service business positioning",
+    "reuse": "Reference only; visual reuse requires review",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-bedrock-pricing",
+    "url": "https://aws.amazon.com/bedrock/pricing/",
+    "retrieved_at": "2026-11-14T01:55:16.711522+00:00",
+    "sha256": "34dbecd4c153ee95c69d177bfecb362799f28d53739c52c8042821ae1631d5f1",
+    "role": "Pricing dimensions; values must be rechecked before recording",
+    "reuse": "Reference only; visual reuse requires review",
+    "status": "retrieved"
+  },
+  {
+    "id": "aws-caf-ai",
+    "url": "https://docs.aws.amazon.com/whitepapers/latest/overview-aif/overview-aif.html",
+    "retrieved_at": "2026-11-14T01:55:17.042084+00:00",
+    "sha256": null,
+    "role": "AI adoption framework",
+    "reuse": "Reference only; visual reuse requires review",
+    "status": "needs_review"
+  },
+  {
+    "id": "aws-responsible-ai",
+    "url": "https://aws.amazon.com/ai/responsible-ai/",
+    "retrieved_at": "2026-11-14T01:55:17.370719+00:00",
+    "sha256": "c49e110bae57081fbb31c7808156d2c2430856681f3f208ee1b62fa345616b2d",
+    "role": "Responsible AI principles and practices",
+    "reuse": "Reference only; visual reuse requires review",
+    "status": "retrieved"
+  }
+]

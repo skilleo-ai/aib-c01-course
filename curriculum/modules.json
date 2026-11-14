@@ -1,0 +1,132 @@
+[
+  {
+    "id": "M01",
+    "title": "AI literacy for business leaders",
+    "domain": 1,
+    "lessons": [
+      "M01-L01",
+      "M01-L02",
+      "M01-L03"
+    ]
+  },
+  {
+    "id": "M02",
+    "title": "Data and solution selection",
+    "domain": 1,
+    "lessons": [
+      "M02-L01",
+      "M02-L02",
+      "M02-L03"
+    ]
+  },
+  {
+    "id": "M03",
+    "title": "Generative AI decisions",
+    "domain": 1,
+    "lessons": [
+      "M03-L01",
+      "M03-L02",
+      "M03-L03"
+    ]
+  },
+  {
+    "id": "M04",
+    "title": "Opportunity and strategic alignment",
+    "domain": 2,
+    "lessons": [
+      "M04-L01",
+      "M04-L02",
+      "M04-L03"
+    ]
+  },
+  {
+    "id": "M05",
+    "title": "Build, buy or partner",
+    "domain": 2,
+    "lessons": [
+      "M05-L01",
+      "M05-L02",
+      "M05-L03"
+    ]
+  },
+  {
+    "id": "M06",
+    "title": "Measuring business value",
+    "domain": 2,
+    "lessons": [
+      "M06-L01",
+      "M06-L02",
+      "M06-L03"
+    ]
+  },
+  {
+    "id": "M07",
+    "title": "Competitive advantage and investment",
+    "domain": 2,
+    "lessons": [
+      "M07-L01",
+      "M07-L02",
+      "M07-L03"
+    ]
+  },
+  {
+    "id": "M08",
+    "title": "Responsible AI decisions",
+    "domain": 3,
+    "lessons": [
+      "M08-L01",
+      "M08-L02",
+      "M08-L03"
+    ]
+  },
+  {
+    "id": "M09",
+    "title": "Governance structures and obligations",
+    "domain": 3,
+    "lessons": [
+      "M09-L01",
+      "M09-L02",
+      "M09-L03"
+    ]
+  },
+  {
+    "id": "M10",
+    "title": "Ongoing risk management",
+    "domain": 3,
+    "lessons": [
+      "M10-L01",
+      "M10-L02",
+      "M10-L03"
+    ]
+  },
+  {
+    "id": "M11",
+    "title": "Readiness and foundations",
+    "domain": 4,
+    "lessons": [
+      "M11-L01",
+      "M11-L02",
+      "M11-L03"
+    ]
+  },
+  {
+    "id": "M12",
+    "title": "Leadership and workforce adoption",
+    "domain": 4,
+    "lessons": [
+      "M12-L01",
+      "M12-L02",
+      "M12-L03"
+    ]
+  },
+  {
+    "id": "M13",
+    "title": "From pilot to enterprise scale",
+    "domain": 4,
+    "lessons": [
+      "M13-L01",
+      "M13-L02",
+      "M13-L03"
+    ]
+  }
+]

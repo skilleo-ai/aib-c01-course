@@ -1,0 +1,171 @@
+{
+  "schema_version": "0.1",
+  "lesson_id": "M06-L02",
+  "status": "scripted",
+  "synthetic_case": true,
+  "currency": "USD",
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "S01 \u2014 The decision, not the product",
+      "kind": "original_graphic",
+      "target_seconds": 63,
+      "word_count": 131,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S01",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Original title card and three-part decision: value, cost, uncertainty",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S02",
+      "title": "S02 \u2014 Establish the baseline and boundaries",
+      "kind": "original_graphic",
+      "target_seconds": 63,
+      "word_count": 131,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S02",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Baseline table: 12,000 \u00d7 12 / 60 = 2,400 hours; assisted draft \u2192 human review \u2192 customer",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S03",
+      "title": "S03 \u2014 From time saved to usable value",
+      "kind": "original_graphic",
+      "target_seconds": 77,
+      "word_count": 160,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S03",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Value funnel: 300 hours \u2192 $9,000 capacity \u2192 $6,300 recognized value",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S04",
+      "title": "S04 \u2014 Include the cost of operating the change",
+      "kind": "original_graphic",
+      "target_seconds": 70,
+      "word_count": 145,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S04",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Cost stack: $1,800 + $700 + $500 monthly; $18,000 upfront",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S05",
+      "title": "S05 \u2014 Calculate and interpret the base case",
+      "kind": "original_graphic",
+      "target_seconds": 69,
+      "word_count": 143,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S05",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Year-one arithmetic and payback with explicit definitions",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S06",
+      "title": "S06 \u2014 Ask what could reverse the decision",
+      "kind": "original_graphic",
+      "target_seconds": 86,
+      "word_count": 179,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S06",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Sensitivity table: 25%, 50%, 75%; break-even 35.71%",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S07",
+      "title": "S07 \u2014 Measure value and protect customers",
+      "kind": "original_graphic",
+      "target_seconds": 72,
+      "word_count": 150,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S07",
+      "source_ids": [
+        "aws-domain-2",
+        "aws-domain-3"
+      ],
+      "status": "scripted",
+      "visual": "Paired metric dashboard and human-review flow",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S08",
+      "title": "S08 \u2014 Make a conditional recommendation",
+      "kind": "original_graphic",
+      "target_seconds": 71,
+      "word_count": 147,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S08",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Pilot decision gate: scale, pause or stop",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    },
+    {
+      "id": "S09",
+      "title": "S09 \u2014 Your decision and recap",
+      "kind": "original_graphic",
+      "target_seconds": 73,
+      "word_count": 133,
+      "script": "pilot/SCRIPT.md",
+      "script_section": "S09",
+      "source_ids": [
+        "aws-domain-2"
+      ],
+      "status": "scripted",
+      "visual": "Three-option learner decision, then reveal B and its rationale",
+      "capture": null,
+      "artifact": null,
+      "timing_status": "estimated_pending_audio_measurement"
+    }
+  ],
+  "release_blockers": [
+    "Subject-matter and instructional review",
+    "Original visuals not yet rendered",
+    "Optional browser capture not executed",
+    "Voice selection and audio synthesis",
+    "Measured audio alignment and captions",
+    "Final audiovisual quality review"
+  ]
+}

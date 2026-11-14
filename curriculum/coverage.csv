@@ -1,0 +1,59 @@
+skill_id,official_description,source_id,lesson_ids,instruction_status,assessment_status
+1.1.1,"Recognize and explain fundamental AI concepts in business contexts (for example, algorithms, models, training, inference, predictions).",aws-domain-1,M01-L01;M01-L02,planned,planned
+1.1.2,"Distinguish between AI, machine learning (ML), and generative AI (GenAI).",aws-domain-1,M01-L01,planned,planned
+1.1.3,Distinguish between structured and unstructured data and explain the relevance of data types for AI.,aws-domain-1,M02-L01,planned,planned
+1.1.4,Describe why data quality matters for AI outcomes.,aws-domain-1,M02-L01,planned,planned
+1.1.5,Explain concepts related to training an AI model by using historical data.,aws-domain-1,M01-L02,planned,planned
+1.1.6,"Ensure awareness of global frameworks and unified AI vocabulary (for example, ISO/IEC 23053, ISO/IEC 42001).",aws-domain-1,M01-L03,planned,planned
+1.2.1,Determine when to use rule-based automation and when to use AI solutions.,aws-domain-1,M02-L02,planned,planned
+1.2.2,"Distinguish AI agents from other AI solutions and identify the core capabilities of AI agents (for example, autonomy, tool use, agent-to-agent communication, and orchestration strategies).",aws-domain-1,M02-L02,planned,planned
+1.2.3,Describe why AI solutions require ongoing monitoring and updates to detect and remediate model drift and performance changes.,aws-domain-1,M02-L03,planned,planned
+1.2.4,"Establish transparent classification of AI tools (for example, approved, blocked, under evaluation) to mitigate shadow AI risks.",aws-domain-1,M02-L03,planned,planned
+1.3.1,Apply basic prompt engineering principles to achieve desired AI outputs.,aws-domain-1,M03-L01,planned,planned
+1.3.2,Identify when token limits or context window constraints affect GenAI system performance.,aws-domain-1,M03-L02,planned,planned
+1.3.3,"Recognize how model adaptation techniques (for example, Retrieval Augmented Generation [RAG], fine-tuning) improve AI responses for specific business needs.",aws-domain-1,M03-L03,planned,planned
+2.1.1,"Identify high-impact AI use cases across business functions (for example, customer operations, sales and marketing, research and development, software development) and map AI capabilities to specific business outcomes.",aws-domain-2,M04-L01;M05-L02,planned,planned
+2.1.2,"Evaluate build-buy-partner decisions for AI implementations (by considering factors including budget, timelines, capabilities, vendor proposals, and regulatory compliance requirements).",aws-domain-2,M05-L01;M05-L02;M05-L03,planned,planned
+2.1.3,"Prioritize AI initiatives based on business value, feasibility, sustainability, and strategic alignment (by deciding to scale, pause, or terminate initiatives).",aws-domain-2,M04-L02;M06-L02;M07-L03,scripted,drafted
+2.1.4,Determine when AI is not the appropriate solution for a business problem.,aws-domain-2,M04-L01,planned,planned
+2.1.5,"Evaluate key considerations when preparing to transition business processes to AI-based solutions or between AI platforms (for example, business continuity, cost implications, data readiness, performance impact).",aws-domain-2,M04-L03;M05-L03,planned,planned
+2.2.1,"Define key performance indicators (KPIs) for AI initiatives, including tangible benefits (for example, cost reduction, revenue growth) and intangible benefits (for example, customer satisfaction, employee productivity).",aws-domain-2,M06-L01,planned,planned
+2.2.2,Establish baseline metrics before implementing AI solutions to accurately measure AI adoption effects.,aws-domain-2,M06-L01,planned,planned
+2.2.3,"Calculate AI return on investment (ROI) by using comprehensive frameworks (for example, time savings, cost reduction, revenue growth, productivity gains).",aws-domain-2,M06-L02;M07-L03,scripted,drafted
+2.2.4,Identify leading indicators that predict AI project success.,aws-domain-2,M06-L03,planned,planned
+2.2.5,"Implement basic cost factor controls for AI implementations, including cost planning and optimization strategies.",aws-domain-2,M06-L02;M06-L03,scripted,drafted
+2.3.1,Assess competitive landscapes and identify advantages to adopting AI.,aws-domain-2,M07-L01,planned,planned
+2.3.2,Identify opportunities to transform business models by using AI solutions.,aws-domain-2,M07-L02,planned,planned
+2.3.3,Describe how AI creates sustainable competitive advantages and operational improvements.,aws-domain-2,M07-L02,planned,planned
+2.3.4,Determine appropriate AI investment levels based on industry maturity and competitive dynamics.,aws-domain-2,M07-L01;M07-L03,planned,planned
+3.1.1,"Apply responsible AI principles and dimensions (for example, fairness, explainability, privacy, safety, transparency, robustness) to business scenarios.",aws-domain-3,M08-L01,planned,planned
+3.1.2,Navigate tradeoffs when business objectives conflict with responsible AI principles.,aws-domain-3,M08-L01;M10-L03,planned,planned
+3.1.3,Identify when responsible AI practices should be integrated into AI project planning to ensure governance by design.,aws-domain-3,M08-L02,planned,planned
+3.1.4,"Recognize circumstances when AI systems require human oversight and identify appropriate safeguards (for example, hallucination detection, guardrails, escalation criteria).",aws-domain-3,M08-L02,planned,planned
+3.2.1,Establish AI governance structures that have appropriate cross-functional representation and clear accountability.,aws-domain-3,M09-L01;M10-L03,planned,planned
+3.2.2,Identify and address regulatory compliance risks for business processes that use AI.,aws-domain-3,M09-L02,planned,planned
+3.2.3,Identify appropriate access controls and data security measures for AI systems.,aws-domain-3,M09-L03,planned,planned
+3.2.4,Apply AI risk classification frameworks to prioritize governance and compliance decisions across the AI lifecycle.,aws-domain-3,M09-L02,planned,planned
+3.3.1,Identify the need for risk controls and monitoring mechanisms for AI systems in production.,aws-domain-3,M10-L01,planned,planned
+3.3.2,Recognize that bias can occur at multiple stages of the AI lifecycle and explain the importance of ongoing monitoring for bias drift.,aws-domain-3,M10-L02,planned,planned
+3.3.3,Manage harmful content risks and intellectual property (IP) concerns for AI systems.,aws-domain-3,M08-L03;M10-L03,planned,planned
+3.3.4,"Identify and mitigate risks related to AI system reliability (for example, hallucinations, data quality degradation, model drift).",aws-domain-3,M08-L03;M10-L01,planned,planned
+4.1.1,"Assess business readiness to adopt AI across critical dimensions (for example, leadership alignment, data quality, cultural preparedness, technical infrastructure, governance frameworks).",aws-domain-4,M11-L01,planned,planned
+4.1.2,"Apply AI maturity models to evaluate where an enterprise is in its AI journey (for example, experimentation, enterprise-scale deployment).",aws-domain-4,M11-L01,planned,planned
+4.1.3,"Identify specific capability gaps across people, process, technology, and governance that prevent successful AI transformations.",aws-domain-4,M11-L02,planned,planned
+4.1.4,Prioritize development investments and create progression pathways based on strategic objectives and the current business maturity level.,aws-domain-4,M11-L02,planned,planned
+4.2.1,"Evaluate data readiness, including data quality, accessibility, and the effects of data silos on AI initiatives.",aws-domain-4,M11-L03,planned,planned
+4.2.2,"Describe the importance of data strategies, data ownership, and data sharing frameworks that provide the foundation for AI.",aws-domain-4,M11-L03,planned,planned
+4.2.3,Assess foundational technology and infrastructure requirements to support AI initiatives.,aws-domain-4,M11-L03,planned,planned
+4.3.1,Establish executive sponsorship and leadership alignment to identify and empower AI champions to sustain momentum across an enterprise.,aws-domain-4,M12-L01,planned,planned
+4.3.2,"Build cross-functional teams that represent diverse areas of expertise (for example, business leads, technical experts, legal, compliance) and assign clear accountability standards for AI initiatives.",aws-domain-4,M12-L01,planned,planned
+4.3.3,"Create transparent communication strategies that address workforce concerns about AI (for example, implementation timelines, outcome expectations, effects on workforce roles).",aws-domain-4,M12-L02,planned,planned
+4.3.4,"Recognize cultural barriers to AI adoption (for example, risk aversion, resistance to change, fear of failure) and identify leadership interventions to address these concerns.",aws-domain-4,M12-L02,planned,planned
+4.3.5,"Determine appropriate workforce development approaches to accelerate enterprise-wide AI literacy (for example, proof of concept [POC] programs, hackathons, training programs, responsible AI training).",aws-domain-4,M12-L03,planned,planned
+4.3.6,"Identify opportunities to transition human roles from manual operations to human oversight and collaboration with AI systems, and make strategic decisions that balance human strengths (for example, critical thinking, empathy, creativity) with AI capabilities.",aws-domain-4,M12-L03,planned,planned
+4.4.1,"Apply iterative transformation approaches that progress through phases (for example, envision, experiment, launch, scale).",aws-domain-4,M13-L01,planned,planned
+4.4.2,Implement scaling methodologies that start with short-term wins and build toward enterprise-wide deployments.,aws-domain-4,M13-L01,planned,planned
+4.4.3,Establish AI centers of excellence (COEs) and cross-functional collaboration mechanisms to support scaling.,aws-domain-4,M13-L02,planned,planned
+4.4.4,Establish continuous feedback mechanisms and success metrics to track AI initiative progress and long-term value.,aws-domain-4,M13-L02,planned,planned
+4.4.5,"Address the transition of AI initiatives from experimental to production-grade, including governance and operational requirements.",aws-domain-4,M13-L03,planned,planned
+4.4.6,Evaluate multiple factors throughout AI scaling initiatives across an enterprise to ensure business continuity and performance.,aws-domain-4,M13-L03,planned,planned

@@ -1,0 +1,698 @@
+[
+  {
+    "id": "M01-L01",
+    "title": "AI, ML and generative AI",
+    "domain": 1,
+    "skills": [
+      "1.1.1",
+      "1.1.2"
+    ],
+    "outcome": "Classify prediction, generation and deterministic automation correctly",
+    "scenario": "A retailer compares forecasting with marketing copy generation",
+    "visual": "Nested concept diagram and decision cards",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M01-L02",
+    "title": "Training, inference and evidence",
+    "domain": 1,
+    "skills": [
+      "1.1.5",
+      "1.1.1"
+    ],
+    "outcome": "Explain what historical training evidence can and cannot establish",
+    "scenario": "A churn model encounters a new customer segment",
+    "visual": "Lifecycle diagram and failure analysis",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M01-L03",
+    "title": "A shared AI vocabulary",
+    "domain": 1,
+    "skills": [
+      "1.1.6"
+    ],
+    "outcome": "Distinguish a technical AI framework from a management system standard",
+    "scenario": "Procurement compares vendor claims about ISO alignment",
+    "visual": "Original standards comparison with primary-source references",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M02-L01",
+    "title": "Data types and business quality",
+    "domain": 1,
+    "skills": [
+      "1.1.3",
+      "1.1.4"
+    ],
+    "outcome": "Diagnose how missing, stale or unrepresentative data changes a decision",
+    "scenario": "An insurer combines claims tables with scanned documents",
+    "visual": "Annotated synthetic data and quality scorecard",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M02-L02",
+    "title": "Rules, predictive models and agents",
+    "domain": 1,
+    "skills": [
+      "1.2.1",
+      "1.2.2"
+    ],
+    "outcome": "Select the simplest suitable solution under explicit constraints",
+    "scenario": "A support team compares routing rules, prediction and tool-using agents",
+    "visual": "Branching decision diagram",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M02-L03",
+    "title": "Monitoring and approved tools",
+    "domain": 1,
+    "skills": [
+      "1.2.3",
+      "1.2.4"
+    ],
+    "outcome": "Define monitoring ownership and an approved-tool policy",
+    "scenario": "A sales team adopts an unreviewed meeting assistant",
+    "visual": "Policy register and drift scenario",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M03-L01",
+    "title": "Prompts and evaluation",
+    "domain": 1,
+    "skills": [
+      "1.3.1"
+    ],
+    "outcome": "Improve a prompt and evaluate outputs against a fixed rubric",
+    "scenario": "A team drafts responses to customer complaints",
+    "visual": "Controlled prompt comparison with synthetic inputs",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M03-L02",
+    "title": "Tokens and context constraints",
+    "domain": 1,
+    "skills": [
+      "1.3.2"
+    ],
+    "outcome": "Explain why long input can undermine a document workflow",
+    "scenario": "Legal reviews a contract set beyond a model context limit",
+    "visual": "Context budget diagram and document selection exercise",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M03-L03",
+    "title": "RAG, fine-tuning and business fit",
+    "domain": 1,
+    "skills": [
+      "1.3.3"
+    ],
+    "outcome": "Choose an adaptation approach and explain remaining limitations",
+    "scenario": "An internal assistant needs current policy answers and consistent tone",
+    "visual": "Original comparison matrix and cited AWS service overview",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M04-L01",
+    "title": "Start with the business problem",
+    "domain": 2,
+    "skills": [
+      "2.1.1",
+      "2.1.4"
+    ],
+    "outcome": "Compare AI and non-AI options against a measurable objective",
+    "scenario": "A distributor investigates late deliveries",
+    "visual": "Problem tree and solution shortlist",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M04-L02",
+    "title": "Prioritize the AI portfolio",
+    "domain": 2,
+    "skills": [
+      "2.1.3"
+    ],
+    "outcome": "Rank opportunities by value, feasibility, risk and sustainability",
+    "scenario": "A board has funding for two of five proposals",
+    "visual": "Weighted decision matrix with sensitivity check",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M04-L03",
+    "title": "Transitions and business continuity",
+    "domain": 2,
+    "skills": [
+      "2.1.5"
+    ],
+    "outcome": "Define staged migration and rollback conditions",
+    "scenario": "A service desk replaces its existing assistant",
+    "visual": "Phased transition map and continuity checklist",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M05-L01",
+    "title": "Evaluate sourcing alternatives",
+    "domain": 2,
+    "skills": [
+      "2.1.2"
+    ],
+    "outcome": "Recommend a sourcing model under budget and capability constraints",
+    "scenario": "A bank needs a document assistant in one quarter",
+    "visual": "Vendor scorecard and capability gap analysis",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M05-L02",
+    "title": "Compare service categories",
+    "domain": 2,
+    "skills": [
+      "2.1.1",
+      "2.1.2"
+    ],
+    "outcome": "Explain managed GenAI, custom ML and business assistant tradeoffs",
+    "scenario": "A manufacturer compares Bedrock, SageMaker AI and a packaged assistant",
+    "visual": "Verified current service pages and original comparison",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M05-L03",
+    "title": "Vendor evidence and exit options",
+    "domain": 2,
+    "skills": [
+      "2.1.2",
+      "2.1.5"
+    ],
+    "outcome": "Evaluate evidence, lock-in, data terms and transition costs",
+    "scenario": "A vendor promises accuracy without evaluation data",
+    "visual": "Annotated fictional proposal and exit checklist",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M06-L01",
+    "title": "Baselines and meaningful KPIs",
+    "domain": 2,
+    "skills": [
+      "2.2.1",
+      "2.2.2"
+    ],
+    "outcome": "Define a baseline and paired value-and-quality metrics",
+    "scenario": "A support team confuses faster replies with better resolution",
+    "visual": "Metric tree and baseline worksheet",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M06-L02",
+    "title": "Should we invest in a support assistant?",
+    "domain": 2,
+    "skills": [
+      "2.2.3",
+      "2.2.5",
+      "2.1.3"
+    ],
+    "outcome": "Calculate ROI, test assumptions and recommend a bounded pilot",
+    "scenario": "Northstar Services considers agent-assist drafting",
+    "visual": "Worked economics, sensitivity table and go/no-go decision",
+    "target_minutes": 12,
+    "status": "scripted",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "drafted"
+    }
+  },
+  {
+    "id": "M06-L03",
+    "title": "Leading indicators and cost controls",
+    "domain": 2,
+    "skills": [
+      "2.2.4",
+      "2.2.5"
+    ],
+    "outcome": "Select early signals and budget controls before scaling",
+    "scenario": "A pilot has enthusiastic users but escalating usage costs",
+    "visual": "Metric dashboard and current pricing-dimension walkthrough",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M07-L01",
+    "title": "Read the competitive landscape",
+    "domain": 2,
+    "skills": [
+      "2.3.1",
+      "2.3.4"
+    ],
+    "outcome": "Choose an investment posture using maturity and competitive evidence",
+    "scenario": "A regional retailer faces an AI-enabled entrant",
+    "visual": "Competitor evidence matrix",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M07-L02",
+    "title": "Transform the business model",
+    "domain": 2,
+    "skills": [
+      "2.3.2",
+      "2.3.3"
+    ],
+    "outcome": "Explain how AI changes value delivery and defensibility",
+    "scenario": "An equipment supplier considers predictive maintenance subscriptions",
+    "visual": "Business model before-and-after diagram",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M07-L03",
+    "title": "Investment committee simulation",
+    "domain": 2,
+    "skills": [
+      "2.3.4",
+      "2.1.3",
+      "2.2.3"
+    ],
+    "outcome": "Defend a scale, pause or terminate recommendation",
+    "scenario": "Three projects compete for the next funding round",
+    "visual": "Scenario board and decision memorandum",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M08-L01",
+    "title": "Principles in practice",
+    "domain": 3,
+    "skills": [
+      "3.1.1",
+      "3.1.2"
+    ],
+    "outcome": "Resolve a conflict between business benefit and responsible AI concerns",
+    "scenario": "A lender proposes automated applicant screening",
+    "visual": "Stakeholder tradeoff matrix",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M08-L02",
+    "title": "Governance from the start",
+    "domain": 3,
+    "skills": [
+      "3.1.3",
+      "3.1.4"
+    ],
+    "outcome": "Place human oversight and safeguards at appropriate lifecycle points",
+    "scenario": "A travel assistant could book costly nonrefundable tickets",
+    "visual": "Oversight ladder and escalation flow",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M08-L03",
+    "title": "Evaluate harm and reliability",
+    "domain": 3,
+    "skills": [
+      "3.3.3",
+      "3.3.4"
+    ],
+    "outcome": "Recommend controls for hallucinations, harmful content and IP risks",
+    "scenario": "A campaign generator invents product claims",
+    "visual": "Failure analysis with human review checkpoints",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M09-L01",
+    "title": "Accountability and decision rights",
+    "domain": 3,
+    "skills": [
+      "3.2.1"
+    ],
+    "outcome": "Assign accountable owners and escalation responsibilities",
+    "scenario": "A multinational has conflicting AI approval processes",
+    "visual": "RACI and governance charter",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M09-L02",
+    "title": "Compliance and risk classification",
+    "domain": 3,
+    "skills": [
+      "3.2.2",
+      "3.2.4"
+    ],
+    "outcome": "Identify when specialist review and stricter controls are required",
+    "scenario": "An HR team proposes employee scoring across jurisdictions",
+    "visual": "Risk-tier scenarios with jurisdiction explicitly stated",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M09-L03",
+    "title": "Data access and protection",
+    "domain": 3,
+    "skills": [
+      "3.2.3"
+    ],
+    "outcome": "Recommend access boundaries and data handling controls",
+    "scenario": "An assistant searches documents with mixed confidentiality",
+    "visual": "Data-flow and permission-boundary diagram",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M10-L01",
+    "title": "Monitor controls and incidents",
+    "domain": 3,
+    "skills": [
+      "3.3.1",
+      "3.3.4"
+    ],
+    "outcome": "Specify monitoring, stop criteria and incident ownership",
+    "scenario": "A live assistant starts giving obsolete policy advice",
+    "visual": "Operational risk register and incident walkthrough",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M10-L02",
+    "title": "Bias across the lifecycle",
+    "domain": 3,
+    "skills": [
+      "3.3.2"
+    ],
+    "outcome": "Identify sources of bias and the need for repeated evaluation",
+    "scenario": "A recruitment tool shifts performance across groups",
+    "visual": "Synthetic subgroup results and monitoring plan",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M10-L03",
+    "title": "Responsible AI review board",
+    "domain": 3,
+    "skills": [
+      "3.1.2",
+      "3.2.1",
+      "3.3.3"
+    ],
+    "outcome": "Defend a conditional approval supported by control evidence",
+    "scenario": "A new GenAI sales workflow reaches release review",
+    "visual": "Original board exercise and evidence checklist",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M11-L01",
+    "title": "Assess organizational maturity",
+    "domain": 4,
+    "skills": [
+      "4.1.1",
+      "4.1.2"
+    ],
+    "outcome": "Assess readiness across leadership, people, data, technology and governance",
+    "scenario": "A firm has many prototypes but no production owner",
+    "visual": "Maturity scorecard with evidence requirements",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M11-L02",
+    "title": "Close capability gaps",
+    "domain": 4,
+    "skills": [
+      "4.1.3",
+      "4.1.4"
+    ],
+    "outcome": "Prioritize readiness investments based on strategic blockers",
+    "scenario": "Funding can address only two major capability gaps",
+    "visual": "Gap-to-investment roadmap",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M11-L03",
+    "title": "Data and infrastructure foundations",
+    "domain": 4,
+    "skills": [
+      "4.2.1",
+      "4.2.2",
+      "4.2.3"
+    ],
+    "outcome": "Evaluate foundational readiness without designing infrastructure",
+    "scenario": "A group has siloed data and unclear ownership",
+    "visual": "Data ownership map and readiness gate",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M12-L01",
+    "title": "Sponsors, champions and teams",
+    "domain": 4,
+    "skills": [
+      "4.3.1",
+      "4.3.2"
+    ],
+    "outcome": "Assign executive sponsorship and cross-functional accountability",
+    "scenario": "A pilot succeeds locally but cannot expand",
+    "visual": "Operating model and stakeholder map",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M12-L02",
+    "title": "Communication and cultural barriers",
+    "domain": 4,
+    "skills": [
+      "4.3.3",
+      "4.3.4"
+    ],
+    "outcome": "Select leadership responses to specific workforce concerns",
+    "scenario": "Staff fear job losses and avoid the new assistant",
+    "visual": "Communication plan and resistance scenarios",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M12-L03",
+    "title": "Workforce capability and human roles",
+    "domain": 4,
+    "skills": [
+      "4.3.5",
+      "4.3.6"
+    ],
+    "outcome": "Choose training and role redesign matched to task risk",
+    "scenario": "A contact center shifts from drafting to oversight",
+    "visual": "Role redesign and capability development matrix",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M13-L01",
+    "title": "Stage the transformation",
+    "domain": 4,
+    "skills": [
+      "4.4.1",
+      "4.4.2"
+    ],
+    "outcome": "Define evidence-based gates from experiment through scale",
+    "scenario": "A pilot expands from one team to three business units",
+    "visual": "Stage-gate roadmap and short-term wins",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M13-L02",
+    "title": "Centers of excellence and feedback",
+    "domain": 4,
+    "skills": [
+      "4.4.3",
+      "4.4.4"
+    ],
+    "outcome": "Design shared support and a value feedback loop",
+    "scenario": "Business units duplicate evaluations and vendor reviews",
+    "visual": "Federated COE diagram and feedback cycle",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  },
+  {
+    "id": "M13-L03",
+    "title": "Production readiness and continuity",
+    "domain": 4,
+    "skills": [
+      "4.4.5",
+      "4.4.6"
+    ],
+    "outcome": "Recommend scale conditions that protect continuity and performance",
+    "scenario": "An enterprise pilot faces an imminent seasonal demand spike",
+    "visual": "Production readiness review and rollback decision",
+    "target_minutes": 12,
+    "status": "planned",
+    "assessment": {
+      "requirement": "At least 3 original scenario questions, each with rationale for every option and skill mapping",
+      "status": "planned"
+    }
+  }
+]
